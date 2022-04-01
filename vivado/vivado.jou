@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar 27 19:32:08 2022
+# Process ID: 5876
+# Current directory: J:/My Drive/Thesis/DNN/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8964 J:\My Drive\Thesis\DNN\vivado\DNN.xpr
+# Log file: J:/My Drive/Thesis/DNN/vivado/vivado.log
+# Journal file: J:/My Drive/Thesis/DNN/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {J:/My Drive/Thesis/DNN/vivado/DNN.xpr}
+add_files -norecurse {{J:/My Drive/Thesis/DNN/src/fixed_pkg_2008.vhd}}
+set_property library ieee_proposed [get_files  {{J:/My Drive/Thesis/DNN/src/fixed_pkg_2008.vhd}}]
+add_files -norecurse {{J:/My Drive/Thesis/DNN/src/DNN_package.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/fixed_pkg_2008.vhd}}]
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/DNN_package.vhd}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{J:/My Drive/Thesis/DNN/src/FSM_neuron.vhd} {J:/My Drive/Thesis/DNN/src/unary_or.vhd} {J:/My Drive/Thesis/DNN/src/ReLU.vhd} {J:/My Drive/Thesis/DNN/src/weight_memory.vhd} {J:/My Drive/Thesis/DNN/src/neuron.vhd}}
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/neuron.vhd}}]
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/weight_memory.vhd}}]
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/FSM_neuron.vhd}}]
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/ReLU.vhd}}]
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/src/unary_or.vhd}}]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{J:/My Drive/Thesis/DNN/tst/neuron_tb.vhd}}
+update_compile_order -fileset sim_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/tst/neuron_tb.vhd}}]
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{J:/My Drive/Thesis/DNN/tst/ReLU_tb.vhd} {J:/My Drive/Thesis/DNN/tst/weight_memory_tb.vhd}}
+update_compile_order -fileset sim_1
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/tst/ReLU_tb.vhd}}]
+set_property file_type {VHDL 2008} [get_files  {{J:/My Drive/Thesis/DNN/tst/weight_memory_tb.vhd}}]
+launch_simulation
+source neuron_tb.tcl
+open_wave_config {J:/My Drive/Thesis/DNN/vivado/neuron_tb_behav.wcfg}
+relaunch_sim
+close_sim

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="weight_memory_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dnn_package" />
+            <top_module name="weight_memory_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="756686fs"></ZoomStartTime>
+      <ZoomEndTime time="1801131fs"></ZoomEndTime>
+      <Cursor1Time time="820000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/weight_memory_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/weight_memory_tb/addr" type="array">
+      <obj_property name="ElementShortName">addr[0:29]</obj_property>
+      <obj_property name="ObjectShortName">addr[0:29]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/weight_memory_tb/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:-12]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:-12]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/weight_memory_tb/dout" type="array">
+      <obj_property name="ElementShortName">dout[3:-12]</obj_property>
+      <obj_property name="ObjectShortName">dout[3:-12]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">12</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/weight_memory_tb/w_mem/mult" type="array">
+      <obj_property name="ElementShortName">mult[3:-28]</obj_property>
+      <obj_property name="ObjectShortName">mult[3:-28]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/weight_memory_tb/w_mem/ROM" type="array">
+      <obj_property name="ElementShortName">ROM[0:29][3:-12]</obj_property>
+      <obj_property name="ObjectShortName">ROM[0:29][3:-12]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

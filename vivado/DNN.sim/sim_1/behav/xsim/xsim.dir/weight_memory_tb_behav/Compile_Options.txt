@@ -1,0 +1,1 @@
+-wto "ba4302a9b4314945877ddc242259a43b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "ieee_proposed" -L "secureip" --snapshot "weight_memory_tb_behav" "xil_defaultlib.weight_memory_tb" -log "elaborate.log" 

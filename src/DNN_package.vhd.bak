@@ -1,0 +1,51 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 03/17/2022 05:39:57 PM
+-- Design Name: 
+-- Module Name: DNN_package - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+--library std;
+--use std.textio.all;
+
+--library ieee;
+--use ieee.STD_LOGIC_1164.ALL;
+
+
+
+package DNN_package is
+    -- Package Declarative Part
+    --(It contains variables, types, procedures and function declaration)
+    constant rom_depth_tb : natural := 3;
+    constant rom_width_tb : natural := 16;
+	constant rom_file_tb : string := "test_weight.txt";
+	--Fixed Point Representation 
+	constant bit_sfixed: natural := rom_width_tb; --Bit number for fixed point representation.
+	constant bit_int: natural := 2;--number of Bits to represent the integer part (including the sign)
+	constant bit_frac: natural := rom_width_tb - bit_int; --Number of bits to reprent the fractional part.
+	constant neuron_file_tb: string := "neuron_test.txt";
+	
+    
+    --Functions Declaration
+    
+
+    
+end package DNN_package;
+
+package body DNN_package is
+    --Package Body Section
+    
+
+end package body DNN_package;
