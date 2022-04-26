@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 26 14:40:09 2022
+# Process ID: 14232
+# Current directory: C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2308 C:\Users\Win10Admin\GithubRepositories\DNN\vivado\DNN\DNN.xpr
+# Log file: C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/vivado.log
+# Journal file: C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source DNN_tb.tcl
+open_wave_config {C:/Users/Win10Admin/Desktop/Thesis/DNN/vivado/DNN/DNN_tb_behav.wcfg}
+relaunch_sim
+close_sim

@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl2008 ieee_proposed  \
+"../../../../../../src/fixed_pkg_2008.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../../src/DNN_package.vhd" \
+"../../../../../../src/DNN.vhd" \
+"../../../../../../src/FSM_neuron.vhd" \
+"../../../../../../src/ReLU.vhd" \
+"../../../../../../src/layer.vhd" \
+"../../../../../../src/neuron.vhd" \
+"../../../../../../src/unary_or.vhd" \
+"../../../../../../src/weight_memory.vhd" \
+"../../../../../../tst/DNN_tb.vhd" \
+
+# Do not sort compile order
+nosort

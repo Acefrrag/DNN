@@ -1,0 +1,272 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 26 14:40:09 2022
+# Process ID: 14232
+# Current directory: C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2308 C:\Users\Win10Admin\GithubRepositories\DNN\vivado\DNN\DNN.xpr
+# Log file: C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/vivado.log
+# Journal file: C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Win10Admin/Desktop/Thesis/DNN/vivado/DNN' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.gen/sources_1', nor could it be found using path 'C:/Users/Win10Admin/Desktop/Thesis/DNN/vivado/DNN/DNN.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.797 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'DNN_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj DNN_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/fixed_pkg_2008.vhd" into library ieee_proposed
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DNN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/FSM_neuron.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FSM_layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/ReLU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ReLU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/layer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/neuron.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'neuron'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/unary_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unary_OR'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/weight_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'weight_memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/tst/DNN_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DNN_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+"xelab -wto a526b33484dd4c2d9ca9ea0dc578c263 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L ieee_proposed -L secureip --snapshot DNN_tb_behav xil_defaultlib.DNN_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a526b33484dd4c2d9ca9ea0dc578c263 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L ieee_proposed -L secureip --snapshot DNN_tb_behav xil_defaultlib.DNN_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee_proposed.fixed_pkg
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.dnn_package
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture unary_or of entity xil_defaultlib.unary_OR [\unary_OR(n=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.ReLU [\ReLU(data_width=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=784,rom...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=7...]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_layer [\FSM_layer(rom_depth=784)\]
+Compiling architecture behavioral of entity xil_defaultlib.layer [\layer(num_inputs=784,layer_no=1...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=30,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=3...]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_layer [\FSM_layer(rom_depth=30)\]
+Compiling architecture behavioral of entity xil_defaultlib.layer [\layer(num_outputs=20,layer_no=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.weight_memory [\weight_memory(rom_depth=20,rom_...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(rom_width=32,rom_depth=2...]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_layer [\FSM_layer(rom_depth=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.layer [\layer(num_inputs=20,num_outputs...]
+Compiling architecture behavioral of entity xil_defaultlib.DNN [dnn_default]
+Compiling architecture behavioral of entity xil_defaultlib.dnn_tb
+Built simulation snapshot DNN_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Apr 26 14:42:12 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 26 14:42:12 2022...
+run_program: Time (s): cpu = 00:00:06 ; elapsed = 00:00:46 . Memory (MB): peak = 1016.797 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '46' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DNN_tb_behav -key {Behavioral:sim_1:Functional:DNN_tb} -tclbatch {DNN_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source DNN_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 35000 ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:27 . Memory (MB): peak = 1016.797 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DNN_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 35000 ns
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:01:19 . Memory (MB): peak = 1016.797 ; gain = 0.000
+open_wave_config {C:/Users/Win10Admin/Desktop/Thesis/DNN/vivado/DNN/DNN_tb_behav.wcfg}
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'DNN_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj DNN_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim'
+"xelab -wto a526b33484dd4c2d9ca9ea0dc578c263 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L ieee_proposed -L secureip --snapshot DNN_tb_behav xil_defaultlib.DNN_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a526b33484dd4c2d9ca9ea0dc578c263 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L ieee_proposed -L secureip --snapshot DNN_tb_behav xil_defaultlib.DNN_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 1016.797 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '23' seconds
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:23 . Memory (MB): peak = 1016.797 ; gain = 0.000
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+relaunch_xsim_kernel: Time (s): cpu = 00:00:03 ; elapsed = 00:00:24 . Memory (MB): peak = 1016.797 ; gain = 0.000
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:52 . Memory (MB): peak = 1016.797 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 26 16:23:35 2022...

@@ -133,7 +133,6 @@ if rising_edge(clk) then
         --input_valid <= '1';
         data_in <= input_reg(to_integer(unsigned(i)));
     end if;
-    
 end if;
 end process data_gen;
 
