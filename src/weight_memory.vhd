@@ -44,7 +44,7 @@ generic(
     log_file: string := "test.txt");
 port(
     clk: in std_logic;
-    addr: in std_logic_vector(0 to natural(ceil(log2(real(neuron_rom_width)))));
+    addr: in std_logic_vector(0 to natural(ceil(log2(real(rom_depth))))-1);
     dout: out sfixed (rom_int_width-1 downto -rom_frac_width));
 end weight_memory;
 
