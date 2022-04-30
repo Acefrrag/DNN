@@ -2,8 +2,8 @@
 2020.2
 Nov 18 2020
 09:47:47
-C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN.vhd,1650616369,vhdl2008,,,,dnn,,,,,,,,
-C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN_package.vhd,1650711345,vhdl2008,C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN.vhd;C:/Users/Win10Admin/GithubRepositories/DNN/src/ReLU.vhd;C:/Users/Win10Admin/GithubRepositories/DNN/src/layer.vhd;C:/Users/Win10Admin/GithubRepositories/DNN/src/neuron.vhd;C:/Users/Win10Admin/GithubRepositories/DNN/src/weight_memory.vhd;C:/Users/Win10Admin/GithubRepositories/DNN/tst/DNN_tb.vhd,,,dnn_package,,,,,,,,
+C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN.vhd,1651238705,vhdl2008,,,,dnn,,,,,,,,
+C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN_package.vhd,1650711345,vhdl2008,C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN.vhd,,,dnn_package,,,,,,,,
 C:/Users/Win10Admin/GithubRepositories/DNN/src/FSM_neuron.vhd,1650662621,vhdl2008,,,,fsm_layer,,,,,,,,
 C:/Users/Win10Admin/GithubRepositories/DNN/src/ReLU.vhd,1649154275,vhdl2008,,,,relu,,,,,,,,
 C:/Users/Win10Admin/GithubRepositories/DNN/src/layer.vhd,1650751042,vhdl2008,,,,layer,,,,,,,,

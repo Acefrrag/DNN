@@ -13,7 +13,7 @@ biasdataWidth = dataWidth*2#modified
 #Bias Integer part width.
 biasWidth = 2*dataWidth
 dataIntWidth = weightIntWidth#modified 
-inputFile = "WeigntsAndBiases.txt"
+inputFile = "WeightsAndBiases.txt"
 dataFracWidth = dataWidth-dataIntWidth
 weightFracWidth = dataWidth-weightIntWidth
 biasIntWidth = dataIntWidth+weightIntWidth
@@ -39,7 +39,7 @@ def DtoB(num,dataWidth,fracBits):						#funtion for converting into two's comple
 			d = 2**dataWidth - num #This will always be a natural number. Where did we put the minus bit? It's inside the operator
 	return d
 
-def genWaitAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile):
+def genWeightsAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile):
 	weightIntWidth = dataWidth-weightFracWidth
 	biasIntWidth = dataWidth-biasFracWidth
 	myDataFile = open(inputFile,"r")
@@ -92,4 +92,4 @@ def genWaitAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile):
 	biasHeaderFile.close()
 			
 if __name__ == "__main__":
-	genWaitAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile)
+	genWeightsAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile)

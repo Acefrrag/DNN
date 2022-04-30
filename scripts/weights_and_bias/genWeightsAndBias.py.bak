@@ -1,16 +1,23 @@
 import json
 
+#Edit - Michele Pio Fragasso
+#This script has been modified to be compatible to the VHDL DNN architecture.
+#The bias size must be twice as the weight size ( since  it is added to the product w_i*x_i of t he weighted sum).
 #Bits for numbers.
-dataWidth = 16
-#Bias Integer part width.
-dataIntWidth = 1
+#Also in VHDL when loading lines of bits from files the number of characters
+#must correspond to the size of the VHDL signal.
+dataWidth = 32
 #Integer part width in bits of the weights
-weightIntWidth = 4
+weightIntWidth = 16
+biasdataWidth = dataWidth*2#modified
+#Bias Integer part width.
+biasWidth = 2*dataWidth
+dataIntWidth = weightIntWidth#modified 
 inputFile = "WeigntsAndBiases.txt"
 dataFracWidth = dataWidth-dataIntWidth
 weightFracWidth = dataWidth-weightIntWidth
 biasIntWidth = dataIntWidth+weightIntWidth
-biasFracWidth = dataWidth-biasIntWidth
+biasFracWidth = biasWidth-biasIntWidth
 outputPath = "./w_b/"
 headerPath = "./"
 #The output bits are arranged from the least significant bit. The output is supposed to be padded with the remaining number of zero to the left of the sequence
@@ -76,7 +83,7 @@ def genWaitAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile):
 				elif p < -2**(biasIntWidth-1):
 					p = -2**(biasIntWidth-1)
 				bInDec = DtoB(p,dataWidth,biasFracWidth)
-				res = bin(bInDec)[2:]
+				res = bInDec.__format__('0'+str(biasWidth)+'b')
 			f = open(outputPath+fi,'w')
 			f.write(res)
 			biasHeaderFile.write(str(bInDec)+',')
