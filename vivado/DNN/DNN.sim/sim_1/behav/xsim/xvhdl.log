@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/fixed_pkg_2008.vhd" into library ieee_proposed
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/DNN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DNN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/FSM_neuron.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FSM_layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/ReLU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ReLU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/layer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/neuron.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'neuron'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/unary_or.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unary_OR'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/src/weight_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'weight_memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Win10Admin/GithubRepositories/DNN/tst/DNN_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DNN_tb'

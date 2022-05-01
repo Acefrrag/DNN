@@ -11,7 +11,7 @@ dataWidth = 32
 weightIntWidth = 16
 biasdataWidth = dataWidth*2#modified
 #Bias Integer part width.
-biasWidth = 2*dataWidth
+biasWidth = 2*dataWidth#biasdataWidth=biasWidth
 dataIntWidth = weightIntWidth#modified 
 inputFile = "WeightsAndBiases.txt"
 dataFracWidth = dataWidth-dataIntWidth
@@ -41,7 +41,7 @@ def DtoB(num,dataWidth,fracBits):						#funtion for converting into two's comple
 
 def genWeightsAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile):
 	weightIntWidth = dataWidth-weightFracWidth
-	biasIntWidth = dataWidth-biasFracWidth
+	biasIntWidth = 2*dataWidth-biasFracWidth
 	myDataFile = open(inputFile,"r")
 	weightHeaderFile = open(headerPath+"weightValues.h","w")
 	myData = myDataFile.read()
@@ -82,7 +82,7 @@ def genWeightsAndBias(dataWidth,weightFracWidth,biasFracWidth,inputFile):
 					p = 2**(biasIntWidth-1)-2**(-biasFracWidth)
 				elif p < -2**(biasIntWidth-1):
 					p = -2**(biasIntWidth-1)
-				bInDec = DtoB(p,dataWidth,biasFracWidth)
+				bInDec = DtoB(p,2*dataWidth,biasFracWidth)
 				res = bInDec.__format__('0'+str(biasWidth)+'b')
 			f = open(outputPath+fi,'w')
 			f.write(res)

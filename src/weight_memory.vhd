@@ -91,7 +91,7 @@ read_memory: process (clk) --clk is part of the sensitivity list of the process
 begin
     var1 <= to_sfixed(0.5,var1);
     var2 <= to_sfixed(1.9375,var2);
-    if rising_edge(clk) then
+    if falling_edge(clk) then
         out_p <= ROM(to_integer(unsigned(addr)));
         --When you compute a fixed-point multiplication you need to use n1+n2 bits. You may crop the 16lsb bit
         mult <= dout*var1;

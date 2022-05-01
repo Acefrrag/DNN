@@ -1,1 +1,0 @@
--wto "a526b33484dd4c2d9ca9ea0dc578c263" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "ieee_proposed" -L "secureip" --snapshot "layer_tb_behav" "xil_defaultlib.layer_tb" -log "elaborate.log" 

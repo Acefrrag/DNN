@@ -10,8 +10,8 @@ except:
 import gzip
 import numpy as np
 
-dataWidth = 16                    #specify the number of bits in test data
-IntSize = 4 #Number of bits of integer portion including sign bit
+dataWidth = 32                    #specify the number of bits in test data
+IntSize = 16 #Number of bits of integer portion including sign bit
 
 try:
     testDataNum = int(sys.argv[1])
@@ -104,4 +104,4 @@ def genAllTestData(dataWidth,IntSize):
 
 if __name__ == "__main__":
     #genTestData(dataWidth,IntSize,testDataNum=1)
-    genTestData(dataWidth,IntSize,68)
+    genTestData(dataWidth,IntSize,1)

@@ -104,4 +104,4 @@ def genAllTestData(dataWidth,IntSize):
 
 if __name__ == "__main__":
     #genTestData(dataWidth,IntSize,testDataNum=1)
-    genTestData(dataWidth,IntSize,76)
+    genTestData(dataWidth,IntSize,179)
