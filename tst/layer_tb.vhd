@@ -74,14 +74,13 @@ signal input_reg: datain_type := gen_datain(dataset_path);
 
 signal clk: std_logic := '0';
 signal data_in: sfixed (input_int_width-1 downto -input_frac_width) := input_reg(0);
-signal addr: std_logic_vector (0 to natural(ceil(log2(real(neuron_rom_width))))):=(others=>'0');
 signal start: std_logic:='1';
 signal data_out: sfixed (input_int_width-1 downto -input_frac_width);
-signal data_out_sel: std_logic_vector(0 to natural(ceil(log2(real(30))))-1);--num_outputs=30
+signal data_out_sel: std_logic_vector(0 to natural(ceil(log2(real(30))))-1) := (others => '0');--num_outputs=30
 --signal data_in_sel: std_logic_vector(0 to natural(ceil(log2(real(30))))-1);--num_outputs=30
 signal data_v: std_logic := '0';
 signal in_sel: std_logic_vector(0 to natural(ceil(log2(real(30))))-1):=(others=>'0');--num_inputs=30
-
+signal start_scan: std_logic := '0';
 
 
 component layer is
@@ -127,27 +126,37 @@ clk <= not(clk);
 end process clk_gen;
 
 
-data_gen: process(clk) is
+--data_gen: process is
 --the assignment <= is a non-blocking assignment
-begin
-if rising_edge(clk) then
+--begin
+--if rising_edge(clk) then
     --in_sel <= std_logic_vector(unsigned(in_sel) + 1);
-    if unsigned(in_sel) >= neuron_rom_depth then --After all the data is fed to the layer start is permanently set to 0. Leaving the layer in the idle state.
+    --if unsigned(in_sel) >= neuron_rom_depth then --After all the data is fed to the layer start is permanently set to 0. Leaving the layer in the idle state.
         --addr_TC <= '1';
         --start <= '0';
         --in_sel <= (others => '0');
-    else
+    --else
         --input_valid <= '1';
         data_in <= input_reg(to_integer(unsigned(in_sel)));
-    end if;    
+    --end if;    
+--end if;
+--end process data_gen;
+
+out_access: process(data_v) is
+
+begin
+if data_v='1' then
+    data_out_sel <= std_logic_vector(to_unsigned(integer'(7),5));
 end if;
-end process data_gen;
+end process out_access;
 
 start_pr: process is
 begin
 wait for 60 ns;
 start <= '0';
 end process start_pr;
+
+
 
 
 

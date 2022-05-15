@@ -40,7 +40,7 @@ end FSM_layer;
 
 architecture Behavioral of FSM_layer is
 --Declarative Part
-type neuron_state is (idle, init, w_sum, b_sum, act_log, finished);
+type neuron_state is (idle, w_sum, b_sum, act_log, finished);
 signal pr_state, nx_state: neuron_state := idle;
 signal out_val: std_logic := '0';
 
@@ -68,12 +68,12 @@ begin
             sum_reg_rst <= '1';
             update_out <= '0';
             addr_in_gen_rst <= '1';         
-        when init =>
-            mul_sel <= '0';
-            out_val <= '0';
-            sum_reg_rst <= '1';
-            update_out <= '0';
-            addr_in_gen_rst <= '0';    
+--        when init =>
+--            mul_sel <= '0';
+--            out_val <= '0';
+--            sum_reg_rst <= '1';
+--            update_out <= '0';
+--            addr_in_gen_rst <= '1';    
         when w_sum =>
             mul_sel <= '0';
             out_val <= '0';
@@ -109,12 +109,12 @@ begin
         when idle =>
             --next
             if start = '1' then
-                nx_state <= init;
+                nx_state <= w_sum;
             else
                 nx_state <= idle;
             end if;
-        when init =>
-            nx_state <= w_sum;
+--        when init =>
+--            nx_state <= w_sum;
         when w_sum =>
             if addr_TC = '1' then --we stopped feeding inputs
                   nx_state <= b_sum;

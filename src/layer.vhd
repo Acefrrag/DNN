@@ -51,7 +51,6 @@ port(
     data_v: out std_logic);
 end layer;
 
-
 architecture Behavioral of layer is
 type rom_type is array (0 to num_inputs-1) of sfixed(neuron_int_width-1 downto -neuron_frac_width);
 type data_out_type is array(0 to num_outputs-1) of sfixed(neuron_int_width-1 downto -neuron_frac_width);
@@ -90,6 +89,8 @@ end component;
 begin
 
 
+
+
 fsm_layer_comp: FSM_layer
 generic map(
 rom_depth => num_inputs
@@ -119,11 +120,13 @@ begin
         else
             if rising_edge(clk) then
                 addr <= std_logic_vector(unsigned(addr) + 1);
-                if unsigned(addr) = num_inputs-1 then
-                    addr <= (others=>'0');
+                if unsigned(addr) = num_inputs-2 then
                     addr_TC <= '1';
                 else
                     addr_TC <= '0';
+                end if;
+                if unsigned(addr) = num_inputs-1 then
+                    addr <= (others=>'0');
                 end if;
             end if;
         end if;    
