@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Fri May 13 18:12:09 2022" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu Jul 21 19:45:20 2022" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -22,12 +22,11 @@ webtalk_add_data -client project -key cpu_speed -value "2400 MHz" -context "user
 webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
 webtalk_add_data -client project -key system_ram -value "17.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
-webtalk_add_data -client xsim -key runall -value "true" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "715440 ns" -context "xsim\\usage"
-webtalk_add_data -client xsim -key iteration -value "2" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "23.95_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "11800_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1005333799 -regid "" -xml C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key runtime -value "39 us" -context "xsim\\usage"
+webtalk_add_data -client xsim -key iteration -value "3" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Time -value "1.84_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "10700_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2353594988 -regid "" -xml C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Win10Admin/GithubRepositories/DNN/vivado/DNN/DNN.sim/sim_1/behav/xsim/xsim.dir/DNN_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
