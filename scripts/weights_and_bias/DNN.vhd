@@ -90,12 +90,12 @@ act_fun_size => 0
 )
 port map(
 clk => clk,
-data_in => data_in_vect(1)),
+data_in => data_in_vect(1),
 data_out_sel => data_out_sel1,
-start => start_vect(1)),
-data_out => data_out_vect(1)),
+start => start_vect(1),
+data_out => data_out_vect(1),
 data_in_sel => data_in_sel1,
-data_v => data_v_vect(1))
+data_v => data_v_vect(1)
 );
 
 layer2: layer
@@ -108,12 +108,12 @@ act_fun_size => 0
 )
 port map(
 clk => clk,
-data_in => data_in_vect(2)),
+data_in => data_in_vect(2),
 data_out_sel => data_out_sel2,
-start => start_vect(2)),
-data_out => data_out_vect(2)),
+start => start_vect(2),
+data_out => data_out_vect(2),
 data_in_sel => data_in_sel2,
-data_v => data_v_vect(2))
+data_v => data_v_vect(2)
 );
 
 layer3: layer
@@ -126,12 +126,12 @@ act_fun_size => 0
 )
 port map(
 clk => clk,
-data_in => data_in_vect(3)),
+data_in => data_in_vect(3),
 data_out_sel => data_out_sel3,
-start => start_vect(3)),
-data_out => data_out_vect(3)),
+start => start_vect(3),
+data_out => data_out_vect(3),
 data_in_sel => data_in_sel3,
-data_v => data_v_vect(3))
+data_v => data_v_vect(3)
 );
 
 end Behavioral;

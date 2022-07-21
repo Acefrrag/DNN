@@ -134,12 +134,12 @@ try:
             ")\n"
             "port map(\n"
             "clk => clk,\n"
-            "data_in => data_in_vect("+str(i+1)+")),\n"
+            "data_in => data_in_vect("+str(i+1)+"),\n"
             "data_out_sel => data_out_sel"+str(i+1)+",\n"
-            "start => start_vect("+str(i+1)+")),\n"
-            "data_out => data_out_vect("+str(i+1)+")),\n"
+            "start => start_vect("+str(i+1)+"),\n"
+            "data_out => data_out_vect("+str(i+1)+"),\n"
             "data_in_sel => data_in_sel"+str(i+1)+",\n"
-            "data_v => data_v_vect("+str(i+1)+"))\n"
+            "data_v => data_v_vect("+str(i+1)+")\n"
             ");\n\n"
         )
     f.write("end Behavioral;\n")            
