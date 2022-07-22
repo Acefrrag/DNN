@@ -30,8 +30,8 @@ constant neuron_frac_width_b: natural := neuron_width_sfixed_b - neuron_int_widt
 constant num_layers: natural := 3;
 --DNN parameters
 type layer_neurons_type is array(1 to num_layers) of natural;
-constant log2_layer_inputs: layer_neurons_type := (natural(ceil(log2(real(784)))),natural(ceil(log2(real(30)))),natural(ceil(log2(real(20)))));
-constant log2_layer_outputs: layer_neurons_type := (natural(ceil(log2(real(30)))),natural(ceil(log2(real(20)))),natural(ceil(log2(real(10)))));
+constant log2_layer_inputs: layer_neurons_type := (natural(ceil(log2(real(784)))),natural(ceil(log2(real(30)))),natural(ceil(log2(20))));
+constant log2_layer_outputs: layer_neurons_type := (natural(ceil(log2(real(30)))),natural(ceil(log2(real(20)))),natural(ceil(log2(10))));
 constant layer_inputs: layer_neurons_type := (784,30,20);
 constant layer_outputs: layer_neurons_type := (30,20,10);
 constant data_int_width: natural := 16;

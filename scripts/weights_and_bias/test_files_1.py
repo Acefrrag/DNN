@@ -61,6 +61,14 @@ try:
     f.write(
         "type data_vect_type is array(1 to num_layers) of sfixed(data_int_width-1 downto -data_frac_width);\n"
         "signal data_out_vect, data_in_vect: data_vect_type;\n"
+        )
+    for i in range num
+    constant layer_inputs: layer_neurons_type := (784,30,20);
+    constant layer_outputs: layer_neurons_type := (30,20,10);
+    constant log2_layer_inputs: layer_neurons_type := (natural(ceil(log2(real(784)))), natural(ceil(log2(real(30)))), natural(ceil(log2(real(10)))));
+    constant log2_layer_outputs: layer_neurons_type := (natural(ceil(log2(real(30)))), natural(ceil(log2(real(20)))), natural(ceil(log2(real(10)))));
+
+    f.write()
         "signal start_vect: std_logic_vector(0 to num_layers);\n"
         "signal data_v_vect: std_logic_vector(1 to num_layers);\n"
         "signal data_in_sel_vect: std_logic_vector(0 to natural(ceil(log2(real(isum(layer_inputs)))))-1);\n"
