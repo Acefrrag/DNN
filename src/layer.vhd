@@ -110,7 +110,7 @@ data_v <= out_v;
 rst <= addr_in_gen_rst;
 data_in_sel <= addr;
 --rst <= 
-gen_addr: process(clk,rst) is --This process generate the address to access the neuron weight and get the input from the previous layer
+layer_CNTR: process(clk,rst) is --This process generate the address to access the neuron weight and get the input from the previous layer
 begin
    -- if rst = '1' then
     --    addr <= '0';
@@ -131,7 +131,7 @@ begin
             end if;
         end if;    
     --end if;
-end process gen_addr;
+end process layer_CNTR;
 
 
 neurons: for i in 0 to num_outputs-1 generate
