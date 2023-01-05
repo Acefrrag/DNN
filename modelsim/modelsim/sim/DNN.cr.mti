@@ -1,0 +1,231 @@
+C:/Users/miche/Desktop/modelsim_designs/DNN/test/layer_tb.vhd {2 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/test/layer_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity layer_tb
+-- Compiling architecture Behavioral of layer_tb
+** Warning: C:/Users/miche/Desktop/modelsim_designs/DNN/test/layer_tb.vhd(93): (vcom-1013) Initial value of "data_in" depends on value of signal "input_reg".
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/Sigmoid.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/Sigmoid.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity Sigmoid
+-- Compiling architecture Behavioral of Sigmoid
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/FSM_neuron.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/FSM_neuron.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FSM_layer
+-- Compiling architecture Behavioral of FSM_layer
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/test/test_fixed_point_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/test/test_fixed_point_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Compiling entity test_fixed_point_tb
+-- Compiling architecture Behavioral of test_fixed_point_tb
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/neuron.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/neuron.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity neuron
+-- Compiling architecture Behavioral of neuron
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/ReLU.vhd {2 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/ReLU.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity ReLU
+-- Compiling architecture Behavioral of ReLU
+** Warning: C:/Users/miche/Desktop/modelsim_designs/DNN/src/ReLU.vhd(86): (vcom-1048) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/DNN_package.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/DNN_package.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Compiling package DNN_package
+-- Compiling package body DNN_package
+-- Loading package DNN_package
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/test/DNN_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/test/DNN_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity DNN_tb
+-- Compiling architecture Behavioral of DNN_tb
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/layer.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/layer.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity layer
+-- Compiling architecture Behavioral of layer
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/max_finder.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/max_finder.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity max_finder
+-- Compiling architecture Behavioral of max_finder
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/test/weight_memory_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/test/weight_memory_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity weight_memory_tb
+-- Compiling architecture Behavioral of weight_memory_tb
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/unary_or.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/unary_or.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity unary_OR
+-- Compiling architecture unary_OR of unary_OR
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/DNN.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/DNN.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity DNN
+-- Compiling architecture Behavioral of DNN
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/weight_memory.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/weight_memory.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity weight_memory
+-- Compiling architecture Behavioral of weight_memory
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/test/Sigmoid_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/test/Sigmoid_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity Sigmoid_tb
+-- Compiling architecture Behavioral of Sigmoid_tb
+
+} {} {}} C:/Users/miche/Desktop/modelsim_designs/DNN/src/TB_package.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Desktop/modelsim_designs/DNN/src/TB_package.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package instance fixed_pkg
+-- Loading package NUMERIC_STD
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Compiling package TB_package
+-- Compiling package body TB_package
+-- Loading package TB_package
+
+} {} {}}

@@ -1,0 +1,72 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.fixed_pkg.all;
+use ieee.math_real.all;
+use ieee.numeric_std.all;
+
+library std;
+use std.textio.all;
+
+library work;
+use work.DNN_package.all;
+
+entity Sigmoid is
+generic(
+	constant intWidth: natural := neuron_int_width+input_int_width;
+	constant dataWidth: natural := neuron_int_width+input_int_width+neuron_frac_width+input_frac_width;
+	constant Sigfilename: string := "SigContent.txt"
+);
+port(
+	CLK			:in std_logic;
+	data_in		: in sfixed(intWidth-1 downto 0);
+	data_out	: out sfixed(intWidth-1 downto (dataWidth-intWidth)-1)
+);
+
+end Sigmoid;
+
+
+Architecture Behavioral of Sigmoid is
+
+
+type rom_type is array (0 to 2**intWidth) of sfixed(intWidth-1 downto -(dataWidth-intWidth));
+
+
+function makesfixed (bit_in: in bit_vector(dataWidth-1 downto 0)) return sfixed is
+    variable fixedpoint_s: sfixed((neuron_int_width+input_int_width)-1 downto (-neuron_frac_width-input_frac_width));
+    --variable a: std_logic := 0;
+    begin
+    for i in fixedpoint_s'range loop
+        fixedpoint_s(i) := To_StdULogic(bit_in(i+neuron_frac_width+input_frac_width));
+    end loop;
+    return fixedpoint_s;
+end function;
+
+impure function genSigROM(filename: string) return rom_type is
+
+file file_header: text open read_mode is filename;
+variable text_line: line;
+variable bit_line: bit_vector(dataWidth-1 downto 0);
+variable sigmoid_content: rom_type := (others => (others => '0'));
+
+begin
+
+for i in sigmoid_content'range loop
+	readline(file_header, text_line);
+	read(text_line, bit_line);
+	sigmoid_content(i) := makesfixed(bit_line);
+end loop;
+
+return sigmoid_content;
+
+signal sigmoid_ROM: rom_type := genSigROM(Sigfilename);
+
+end function;
+
+
+
+begin
+
+
+
+
+end Behavioral;
