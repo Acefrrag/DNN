@@ -1,0 +1,222 @@
+# Current time Fri Dec 30 11:50:40 2022
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 00576b93. Traceback:
+# 0    0x00576b93: 'Mtirpc_Init + 0x40263'
+# 1    0x00573b9d: 'Mtirpc_Init + 0x3d26d'
+# 2    0x514139f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Fri Dec 30 11:50:40 2022
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 514b9e6f. Traceback:
+# 0    0x514b9e6f: 'Tcl_GetString + 0xf'
+# 1    0x0050f3cb: '<unknown (@0x50f3cb)>'
+# 2    0x00510cf4: '<unknown (@0x510cf4)>'
+# 3    0x00512d51: '<unknown (@0x512d51)>'
+# 4    0x0050cb89: '<unknown (@0x50cb89)>'
+# 5    0x0050c9e4: '<unknown (@0x50c9e4)>'
+# 6    0x514d653b: 'TclServiceIdle + 0x4b'
+# 7    0x5146efbe: 'TclInThreadExit + 0xce'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Fri Dec 30 11:50:40 2022
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 514b9e6f. Traceback:
+# 0    0x514b9e6f: 'Tcl_GetString + 0xf'
+# 1    0x0050f3cb: '<unknown (@0x50f3cb)>'
+# 2    0x00510cf4: '<unknown (@0x510cf4)>'
+# 3    0x00512d51: '<unknown (@0x512d51)>'
+# 4    0x0050cb89: '<unknown (@0x50cb89)>'
+# 5    0x0050c9e4: '<unknown (@0x50c9e4)>'
+# 6    0x514d653b: 'TclServiceIdle + 0x4b'
+# 7    0x5146efbe: 'TclInThreadExit + 0xce'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Fri Dec 30 11:50:40 2022
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 514b9e6f. Traceback:
+# 0    0x514b9e6f: 'Tcl_GetString + 0xf'
+# 1    0x0050f3cb: '<unknown (@0x50f3cb)>'
+# 2    0x00510cf4: '<unknown (@0x510cf4)>'
+# 3    0x00512d51: '<unknown (@0x512d51)>'
+# 4    0x0050cb89: '<unknown (@0x50cb89)>'
+# 5    0x0050c9e4: '<unknown (@0x50c9e4)>'
+# 6    0x514d653b: 'TclServiceIdle + 0x4b'
+# 7    0x5146efbe: 'TclInThreadExit + 0xce'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Thu Jan  5 17:48:40 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 005ba20d. Traceback:
+# 0    0x005ba20d: 'Mtirpc_Init + 0x838dd'
+# 1    0x00572c80: 'Mtirpc_Init + 0x3c350'
+# 2    0x624b39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Thu Jan  5 17:48:40 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 0056ac41. Traceback:
+# 0    0x0056ac41: 'Mtirpc_Init + 0x34311'
+# 1    0x0050c201: '<unknown (@0x50c201)>'
+# 2    0x00511607: '<unknown (@0x511607)>'
+# 3    0x00656dfe: 'Mtirpc_Init + 0x1204ce'
+# 4    0x00651195: 'Mtirpc_Init + 0x11a865'
+# 5    0x00612841: 'Mtirpc_Init + 0xdbf11'
+# 6    0x00610648: 'Mtirpc_Init + 0xd9d18'
+# 7    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 8    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 9    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 10   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 11   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 12   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 13   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 14   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 15   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 16   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 17   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 18   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 19   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 20   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 21   0x0060ba7d: 'Mtirpc_Init + 0xd514d'
+# 22   0x005f763c: 'Mtirpc_Init + 0xc0d0c'
+# 23   0x00652252: 'Mtirpc_Init + 0x11b922'
+# 24   0x00651e8e: 'Mtirpc_Init + 0x11b55e'
+# 25   0x005b9e81: 'Mtirpc_Init + 0x83551'
+# 26   0x00512ccf: '<unknown (@0x512ccf)>'
+# 27   0x0050cb89: '<unknown (@0x50cb89)>'
+# 28   0x0050c9e4: '<unknown (@0x50c9e4)>'
+# 29   0x0050dde3: '<unknown (@0x50dde3)>'
+# 30   0x6254acb5: 'Tcl_ServiceEvent + 0xc5'
+# 31   0x6254afc8: 'Tcl_DoOneEvent + 0xb8'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu Jan  5 17:48:40 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 0056ac41. Traceback:
+# 0    0x0056ac41: 'Mtirpc_Init + 0x34311'
+# 1    0x0050c201: '<unknown (@0x50c201)>'
+# 2    0x00511607: '<unknown (@0x511607)>'
+# 3    0x00656dfe: 'Mtirpc_Init + 0x1204ce'
+# 4    0x00651195: 'Mtirpc_Init + 0x11a865'
+# 5    0x00612841: 'Mtirpc_Init + 0xdbf11'
+# 6    0x00610648: 'Mtirpc_Init + 0xd9d18'
+# 7    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 8    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 9    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 10   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 11   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 12   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 13   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 14   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 15   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 16   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 17   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 18   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 19   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 20   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 21   0x0060ba7d: 'Mtirpc_Init + 0xd514d'
+# 22   0x005f763c: 'Mtirpc_Init + 0xc0d0c'
+# 23   0x00652252: 'Mtirpc_Init + 0x11b922'
+# 24   0x00651e8e: 'Mtirpc_Init + 0x11b55e'
+# 25   0x005b9e81: 'Mtirpc_Init + 0x83551'
+# 26   0x00512ccf: '<unknown (@0x512ccf)>'
+# 27   0x0050cb89: '<unknown (@0x50cb89)>'
+# 28   0x0050c9e4: '<unknown (@0x50c9e4)>'
+# 29   0x0050dde3: '<unknown (@0x50dde3)>'
+# 30   0x6254acb5: 'Tcl_ServiceEvent + 0xc5'
+# 31   0x6254afc8: 'Tcl_DoOneEvent + 0xb8'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu Jan  5 17:48:41 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 0056ac41. Traceback:
+# 0    0x0056ac41: 'Mtirpc_Init + 0x34311'
+# 1    0x0050c201: '<unknown (@0x50c201)>'
+# 2    0x00511607: '<unknown (@0x511607)>'
+# 3    0x00656dfe: 'Mtirpc_Init + 0x1204ce'
+# 4    0x00651195: 'Mtirpc_Init + 0x11a865'
+# 5    0x00612841: 'Mtirpc_Init + 0xdbf11'
+# 6    0x00610648: 'Mtirpc_Init + 0xd9d18'
+# 7    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 8    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 9    0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 10   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 11   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 12   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 13   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 14   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 15   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 16   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 17   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 18   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 19   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 20   0x00610642: 'Mtirpc_Init + 0xd9d12'
+# 21   0x0060ba7d: 'Mtirpc_Init + 0xd514d'
+# 22   0x005f763c: 'Mtirpc_Init + 0xc0d0c'
+# 23   0x00652252: 'Mtirpc_Init + 0x11b922'
+# 24   0x00651e8e: 'Mtirpc_Init + 0x11b55e'
+# 25   0x005b9e81: 'Mtirpc_Init + 0x83551'
+# 26   0x00512ccf: '<unknown (@0x512ccf)>'
+# 27   0x0050cb89: '<unknown (@0x50cb89)>'
+# 28   0x0050c9e4: '<unknown (@0x50c9e4)>'
+# 29   0x0050dde3: '<unknown (@0x50dde3)>'
+# 30   0x6254acb5: 'Tcl_ServiceEvent + 0xc5'
+# 31   0x6254afc8: 'Tcl_DoOneEvent + 0xb8'
+StackWalk failed 0
+# End of Stack Trace
+

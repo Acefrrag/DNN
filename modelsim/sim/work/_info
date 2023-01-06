@@ -1,0 +1,918 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture
+Ednn
+Z0 w1672931907
+Z1 DPx4 work 11 dnn_package 0 22 zS@e9VUX`MGU^]e0;DSBj2
+Z2 DPx4 ieee 17 fixed_float_types 0 22 j<WD5SZ6`I4KC;8P]h@_10
+Z3 DPx4 ieee 17 fixed_generic_pkg 0 22 Rl?j<5:i_L<aE9]<7A]V?0
+Z4 DPx4 ieee 9 fixed_pkg 0 22 c`b>2Shb`ic5KAcV=K;Co1
+Z5 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1646
+Z9 dC:/Users/miche/Github_Repositories/DNN/modelsim/sim
+Z10 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN.vhd
+Z11 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN.vhd
+l0
+Z12 L32 1
+V7Hdg4MdQKQJ:N^LaVYZnT2
+!s100 nGK8Q;WUe]K4NLlDATbEU1
+Z13 OT;C;2021.4;73
+33
+Z14 !s110 1672955690
+!i10b 1
+Z15 !s108 1672955689.000000
+Z16 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN.vhd|
+Z17 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN.vhd|
+!i113 1
+Z18 o-work work -2008 -explicit -O0
+Z19 tExplicit 1 NoCoverage 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 3 dnn 0 22 7Hdg4MdQKQJ:N^LaVYZnT2
+!i122 1646
+l87
+L51 128
+Vn7^gM9iOTEP`EeMalEmKn1
+!s100 eWY^>8?QZDP7GbZd>hNHP0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Pdnn_package
+R2
+R6
+Z20 DBx4 ieee 17 fixed_generic_pkg 4 body 22 YX7o<=i^@69Sm1gW_d;XB1
+R4
+R5
+R7
+R8
+!i122 1647
+Z21 w1672931946
+R9
+Z22 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN_package.vhd
+Z23 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN_package.vhd
+l0
+L26 1
+VzS@e9VUX`MGU^]e0;DSBj2
+!s100 gVDEJNdMZZbN?Fk=GKM4c0
+R13
+33
+b1
+R14
+!i10b 1
+Z24 !s108 1672955690.000000
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN_package.vhd|
+Z26 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/DNN_package.vhd|
+!i113 1
+R18
+R19
+Bbody
+R1
+R2
+R6
+R20
+R4
+R5
+R7
+R8
+!i122 1647
+l0
+L60 1
+VOPi9LIGK@GV2I_R3bDgZR1
+!s100 gd5@>=n:SUiU945ZXFf^i2
+R13
+33
+R14
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R18
+R19
+Ednn_tb
+Z27 w1672955663
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 1657
+R9
+Z28 8C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd
+Z29 FC:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd
+l0
+Z30 L33 1
+VYeiTnOWiYNYV<oi4`RIKE0
+!s100 ?afM<TB:0h_GS7elN[:;S3
+R13
+33
+Z31 !s110 1672955692
+!i10b 1
+Z32 !s108 1672955692.000000
+Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd|
+Z34 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 6 dnn_tb 0 22 YeiTnOWiYNYV<oi4`RIKE0
+!i122 1657
+l106
+L37 109
+V<bWV6dOMJG54KROWVgV1D1
+!s100 B:9dV62mPI;W6R6?3B3[:0
+R13
+33
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R18
+R19
+Efsm_layer
+Z35 w1670928440
+R6
+R7
+R8
+!i122 1648
+R9
+Z36 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/FSM_neuron.vhd
+Z37 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/FSM_neuron.vhd
+l0
+L27 1
+V6BbzP?=a;N<lN0BJzEI?Y1
+!s100 7[55@H9iZz[@55dC`[0=T2
+R13
+33
+R14
+!i10b 1
+R24
+Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/FSM_neuron.vhd|
+Z39 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/FSM_neuron.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R6
+R7
+R8
+DEx4 work 9 fsm_layer 0 22 6BbzP?=a;N<lN0BJzEI?Y1
+!i122 1648
+l47
+L41 92
+VKelkV2jYnSJ5HG3Ya[Aa_3
+!s100 Fb_;Z6I<fM>C2BX^@K[1J3
+R13
+33
+R14
+!i10b 1
+R24
+R38
+R39
+!i113 1
+R18
+R19
+Elayer
+Z40 w1672692699
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 1649
+R9
+Z41 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd
+Z42 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd
+l0
+L31 1
+VTo0icWC<Q9e:R^A5XOo=C2
+!s100 BSKQ2PVARkQIbzKI6IhSW0
+R13
+33
+R14
+!i10b 1
+R24
+Z43 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd|
+Z44 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 5 layer 0 22 To0icWC<Q9e:R^A5XOo=C2
+!i122 1649
+l88
+L55 165
+Va@Y:TLi^QS4;iA6_]kNYI1
+!s100 Q;:UJEfaPZbd247niA>o90
+R13
+33
+R14
+!i10b 1
+R24
+R43
+R44
+!i113 1
+R18
+R19
+Elayer_tb
+Z45 w1672681358
+R1
+R2
+R3
+R4
+R6
+R5
+R7
+R8
+!i122 1658
+R9
+Z46 8C:\Users\miche\Github_Repositories\DNN\modelsim\test\layer_tb.vhd
+Z47 FC:\Users\miche\Github_Repositories\DNN\modelsim\test\layer_tb.vhd
+l0
+Z48 L36 1
+Vb62XA@D4A2?1OUmb8XC8l3
+!s100 IaV:W7mgjHYI6>Nn485JW0
+R13
+33
+R31
+!i10b 1
+R32
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\miche\Github_Repositories\DNN\modelsim\test\layer_tb.vhd|
+Z50 !s107 C:\Users\miche\Github_Repositories\DNN\modelsim\test\layer_tb.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R2
+R3
+R4
+R6
+R5
+R7
+R8
+DEx4 work 8 layer_tb 0 22 b62XA@D4A2?1OUmb8XC8l3
+!i122 1658
+l125
+L39 154
+VU?YGN?^h;Q7I>[Pn5k_=:3
+!s100 F:QRc^8hV9:Q2CLW<P0=F0
+R13
+33
+R31
+!i10b 1
+R32
+R49
+R50
+!i113 1
+R18
+R19
+Emax_finder
+Z51 w1672692131
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 1650
+R9
+Z52 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/max_finder.vhd
+Z53 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/max_finder.vhd
+l0
+R12
+Vni]2c9?HQK_gm[7oh6k5n0
+!s100 m[d18Y7z^YhW6:@2h_7Rm3
+R13
+33
+R14
+!i10b 1
+R24
+Z54 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/max_finder.vhd|
+Z55 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/max_finder.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 10 max_finder 0 22 ni]2c9?HQK_gm[7oh6k5n0
+!i122 1650
+l60
+L49 54
+VHk]=Rjz>N<o5L=IDD]]813
+!s100 5OZnEnkMljLL37KR7ID;83
+R13
+33
+R14
+!i10b 1
+R24
+R54
+R55
+!i113 1
+R18
+R19
+Eneuron
+Z56 w1672696099
+R1
+R2
+R3
+R4
+R5
+R6
+R8
+R7
+!i122 1651
+R9
+Z57 8C:\Users\miche\Github_Repositories\DNN\modelsim\src\neuron.vhd
+Z58 FC:\Users\miche\Github_Repositories\DNN\modelsim\src\neuron.vhd
+l0
+R48
+V4S1aloEiOi>iZU^gfP`>f3
+!s100 ef3YZDcl`2>k:=fef9c;a2
+R13
+33
+Z59 !s110 1672955691
+!i10b 1
+R24
+Z60 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\miche\Github_Repositories\DNN\modelsim\src\neuron.vhd|
+Z61 !s107 C:\Users\miche\Github_Repositories\DNN\modelsim\src\neuron.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R6
+R8
+R7
+DEx4 work 6 neuron 0 22 4S1aloEiOi>iZU^gfP`>f3
+!i122 1651
+l130
+L63 206
+Vz;eUGDM<?COZMA[_7?5h`0
+!s100 iFz0^Z@0:7W1_H`CU8oB52
+R13
+33
+R59
+!i10b 1
+R24
+R60
+R61
+!i113 1
+R18
+R19
+Eneuron_tb
+Z62 w1671400084
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 1496
+R9
+8C:/Users/miche/Github_Repositories/DNN/modelsim/test/neuron_tb.vhd
+FC:/Users/miche/Github_Repositories/DNN/modelsim/test/neuron_tb.vhd
+l0
+Z63 L34 1
+VmOHkSZo[4BN5E2AV@j2[b2
+!s100 9KTRgYL`Tc6Ro:k_8?FI92
+R13
+33
+Z64 !s110 1672932295
+!i10b 1
+Z65 !s108 1672932295.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/test/neuron_tb.vhd|
+!s107 C:/Users/miche/Github_Repositories/DNN/modelsim/test/neuron_tb.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+DPx4 work 11 dnn_package 0 22 Zio?g:fTIPme[e[Y@O_di2
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 9 neuron_tb 0 22 mOHkSZo[4BN5E2AV@j2[b2
+!i122 270
+l103
+L38 119
+V4>XL=kE5;I=DSLGcji7B?0
+!s100 YMMzbR]XUU31gJjeCbKQM3
+R13
+33
+!s110 1671618376
+!i10b 1
+!s108 1671618376.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Desktop/modelsim_designs/DNN/test/neuron_tb.vhd|
+!s107 C:/Users/miche/Desktop/modelsim_designs/DNN/test/neuron_tb.vhd|
+!i113 1
+R18
+R19
+dC:/Users/miche/Desktop/modelsim_designs/DNN/sim
+FC:/Users/miche/Desktop/modelsim_designs/DNN/test/neuron_tb.vhd
+8C:/Users/miche/Desktop/modelsim_designs/DNN/test/neuron_tb.vhd
+Erelu
+Z66 w1672417873
+R5
+R1
+R2
+R3
+R4
+Z67 DPx8 synopsys 10 attributes 0 22 iThS5<O8gHDP?YiMiccE>3
+Z68 DPx4 ieee 14 std_logic_misc 0 22 j4Ca:YPSgnCRYmKlN0[Uj0
+R6
+R7
+R8
+!i122 1652
+R9
+Z69 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/ReLU.vhd
+Z70 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/ReLU.vhd
+l0
+R63
+V;mU1AgflL^kSbE8S@Jl193
+!s100 >4FI[Ffi]?M4RVNCRC0480
+R13
+33
+R59
+!i10b 1
+Z71 !s108 1672955691.000000
+Z72 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/ReLU.vhd|
+Z73 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/ReLU.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R5
+R1
+R2
+R3
+R4
+R67
+R68
+R6
+R7
+R8
+DEx4 work 4 relu 0 22 ;mU1AgflL^kSbE8S@Jl193
+!i122 1652
+l63
+L49 46
+V1lM>TC^Zo8JfD>G0T7`8Y2
+!s100 U6oXR4[87z9:41G@ZCGm]1
+R13
+33
+R59
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R18
+R19
+Erelu_tb
+w1671385893
+R5
+R1
+R2
+R3
+R4
+R6
+R7
+R8
+!i122 1497
+R9
+8C:/Users/miche/Github_Repositories/DNN/modelsim/test/ReLU_tb.vhd
+FC:/Users/miche/Github_Repositories/DNN/modelsim/test/ReLU_tb.vhd
+l0
+Z74 L29 1
+V5hoLm0:0DZZoKbg6IZj_G0
+!s100 igjG9;=e7=LNOjBQ:Y56=1
+R13
+33
+R64
+!i10b 1
+R65
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/test/ReLU_tb.vhd|
+!s107 C:/Users/miche/Github_Repositories/DNN/modelsim/test/ReLU_tb.vhd|
+!i113 1
+R18
+R19
+Esigmoid
+Z75 w1672938804
+R1
+R5
+R2
+R6
+R3
+R4
+R7
+R8
+!i122 1653
+R9
+Z76 8C:\Users\miche\Github_Repositories\DNN\modelsim\src\Sigmoid.vhd
+Z77 FC:\Users\miche\Github_Repositories\DNN\modelsim\src\Sigmoid.vhd
+l0
+L13 1
+VW3OHd8m@`En:oT8A]h3YD2
+!s100 nTR22d942Jk>^B1He7l@N1
+R13
+33
+R59
+!i10b 1
+R71
+Z78 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\miche\Github_Repositories\DNN\modelsim\src\Sigmoid.vhd|
+Z79 !s107 C:\Users\miche\Github_Repositories\DNN\modelsim\src\Sigmoid.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R5
+R2
+R6
+R3
+R4
+R7
+R8
+DEx4 work 7 sigmoid 0 22 W3OHd8m@`En:oT8A]h3YD2
+!i122 1653
+l66
+L29 64
+VMfRSY0<[eGhTb_V2ChBDU1
+!s100 f7nH_4zQ4Q46a5ZBo`Ll;3
+R13
+33
+R59
+!i10b 1
+R71
+R78
+R79
+!i113 1
+R18
+R19
+Esigmoid_tb
+Z80 w1671579578
+R1
+R5
+R2
+R6
+R3
+R4
+R7
+R8
+!i122 1659
+R9
+Z81 8C:/Users/miche/Github_Repositories/DNN/modelsim/test/Sigmoid_tb.vhd
+Z82 FC:/Users/miche/Github_Repositories/DNN/modelsim/test/Sigmoid_tb.vhd
+l0
+L14 1
+VAiQ9oC;Li_?S4Q:o7n9U63
+!s100 g>Y^2iU6dUSDFO^X[==a11
+R13
+33
+R31
+!i10b 1
+R32
+Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/test/Sigmoid_tb.vhd|
+Z84 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/test/Sigmoid_tb.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R5
+R2
+R6
+R3
+R4
+R7
+R8
+DEx4 work 10 sigmoid_tb 0 22 AiQ9oC;Li_?S4Q:o7n9U63
+!i122 1659
+l39
+L18 55
+VmW3<>X?;JSVICH;Pc=C?32
+!s100 iM3dVEz9?5JZ=XE2Yd[a50
+R13
+33
+R31
+!i10b 1
+R32
+R83
+R84
+!i113 1
+R18
+R19
+Ptb_package
+R5
+R2
+R6
+R20
+R4
+R7
+R8
+!i122 1654
+Z85 w1672434765
+R9
+Z86 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/TB_package.vhd
+Z87 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/TB_package.vhd
+l0
+L6 1
+V0k5I7lozUo@X>[YfEFoI:2
+!s100 1:jHlFiY2KfJaW@[J=ULW1
+R13
+33
+R59
+!i10b 1
+R71
+Z88 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/TB_package.vhd|
+Z89 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/TB_package.vhd|
+!i113 1
+R18
+R19
+Bbody
+DPx4 work 10 tb_package 0 22 0k5I7lozUo@X>[YfEFoI:2
+R5
+R2
+R6
+R20
+R4
+R7
+R8
+!i122 1654
+l0
+L22 1
+V6KF?>goQb@4;OiLkHn97R0
+!s100 eWgMdJmJID:@GEEn2[Kf80
+R13
+33
+R59
+!i10b 1
+R71
+R88
+R89
+!i113 1
+R18
+R19
+Etest_fixed_point_tb
+Z90 w1671385908
+R2
+R6
+R3
+R4
+R7
+R8
+!i122 1660
+R9
+Z91 8C:/Users/miche/Github_Repositories/DNN/modelsim/test/test_fixed_point_tb.vhd
+Z92 FC:/Users/miche/Github_Repositories/DNN/modelsim/test/test_fixed_point_tb.vhd
+l0
+R74
+VLXFd]IAJoLPnkRS08H`fQ0
+!s100 6b3XfWOOaa`?Q]IJXkAK53
+R13
+33
+Z93 !s110 1672955693
+!i10b 1
+R32
+Z94 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/test/test_fixed_point_tb.vhd|
+Z95 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/test/test_fixed_point_tb.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R2
+R6
+R3
+R4
+R7
+R8
+DEx4 work 19 test_fixed_point_tb 0 22 LXFd]IAJoLPnkRS08H`fQ0
+!i122 1660
+l39
+L32 21
+VOMPiA?2GmXl8FZdPh[Af21
+!s100 XMR@83^BHf3ggzf`3W20<2
+R13
+33
+R93
+!i10b 1
+R32
+R94
+R95
+!i113 1
+R18
+R19
+Eunary_or
+R35
+R7
+R8
+!i122 1655
+R9
+Z96 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/unary_or.vhd
+Z97 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/unary_or.vhd
+l0
+R30
+Va@I2_OUB`o[hHeYB55=3:3
+!s100 Fn;24jk2NEVNELYi:We4[0
+R13
+33
+R59
+!i10b 1
+R71
+Z98 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/unary_or.vhd|
+Z99 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/unary_or.vhd|
+!i113 1
+R18
+R19
+Aunary_or
+R7
+R8
+DEx4 work 8 unary_or 0 22 a@I2_OUB`o[hHeYB55=3:3
+!i122 1655
+l42
+L40 9
+Vcho<99^HZ_Tld:<B3BcPP2
+!s100 C9Ga_IPn5YL?l<AT2K[G62
+R13
+33
+R59
+!i10b 1
+R71
+R98
+R99
+!i113 1
+R18
+R19
+Eweight_memory
+Z100 w1672687184
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+!i122 1656
+R9
+Z101 8C:/Users/miche/Github_Repositories/DNN/modelsim/src/weight_memory.vhd
+Z102 FC:/Users/miche/Github_Repositories/DNN/modelsim/src/weight_memory.vhd
+l0
+L39 1
+VeGQXEY=FkB:f[9e03_NJ72
+!s100 B6IZeCME?N=ZElX`CWUGQ0
+R13
+33
+R31
+!i10b 1
+R32
+Z103 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/src/weight_memory.vhd|
+Z104 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/src/weight_memory.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 13 weight_memory 0 22 eGQXEY=FkB:f[9e03_NJ72
+!i122 1656
+l89
+L52 50
+VCj2OIX_`^``>58LmGVO^E1
+!s100 Yi>F3<n=7GbkGWLm5ekhz3
+R13
+33
+R31
+!i10b 1
+R32
+R103
+R104
+!i113 1
+R18
+R19
+Eweight_memory_tb
+Z105 w1672691528
+R5
+R1
+R2
+R3
+R4
+R6
+R7
+R8
+!i122 1661
+R9
+Z106 8C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd
+Z107 FC:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd
+l0
+L30 1
+V>Ck]5h5Z]3bBF7YC`P?2A0
+!s100 6K>l5[QH338ccYoCEDV8Q3
+R13
+33
+R93
+!i10b 1
+Z108 !s108 1672955693.000000
+Z109 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd|
+Z110 !s107 C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd|
+!i113 1
+R18
+R19
+Abehavioral
+R5
+R1
+R2
+R3
+R4
+R6
+R7
+R8
+Z111 DEx4 work 16 weight_memory_tb 0 22 >Ck]5h5Z]3bBF7YC`P?2A0
+!i122 1661
+l60
+Z112 L33 51
+Z113 Vo37Hi>GccChLCbAIjS37>2
+Z114 !s100 KOjCPH0bcge[4Bg^?z2k21
+R13
+33
+R93
+!i10b 1
+R108
+R109
+R110
+!i113 1
+R18
+R19
