@@ -168,7 +168,7 @@ Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oc
 -- Compiling package body DNN_package
 -- Loading package DNN_package
 
-} {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd
+} {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -180,23 +180,8 @@ Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oc
 -- Loading package fixed_generic_pkg
 -- Loading package body fixed_generic_pkg
 -- Loading package DNN_package
--- Compiling entity DNN_tb
--- Compiling architecture Behavioral of DNN_tb
-
-} {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd
-Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package instance fixed_pkg
--- Loading package fixed_float_types
--- Loading package fixed_generic_pkg
--- Loading package MATH_REAL
--- Loading package body fixed_generic_pkg
--- Loading package DNN_package
--- Compiling entity weight_memory_tb
--- Compiling architecture Behavioral of weight_memory_tb
+-- Compiling entity layer
+-- Compiling architecture Behavioral of layer
 
 } {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/src/max_finder.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/src/max_finder.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
@@ -213,7 +198,22 @@ Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oc
 -- Compiling entity max_finder
 -- Compiling architecture Behavioral of max_finder
 
-} {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/src/layer.vhd
+} {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/test/weight_memory_tb.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package MATH_REAL
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity weight_memory_tb
+-- Compiling architecture Behavioral of weight_memory_tb
+
+} {} {}} C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/Github_Repositories/DNN/modelsim/test/DNN_tb.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -225,7 +225,7 @@ Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oc
 -- Loading package fixed_generic_pkg
 -- Loading package body fixed_generic_pkg
 -- Loading package DNN_package
--- Compiling entity layer
--- Compiling architecture Behavioral of layer
+-- Compiling entity DNN_tb
+-- Compiling architecture Behavioral of DNN_tb
 
 } {} {}}
