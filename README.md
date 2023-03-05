@@ -4,7 +4,7 @@ This github repository consists in a VHDL architecture of a fully-connected feed
 The aim of the development of such architecture is the integration of NORM to enable the prototyping of hardware-based
 intermittent inference.
 
-##Repository Content
+## Repository Content
 
 This github repository contains VHDL architecture developed under two different EDA tools (Vivado and ModelSim).
 
