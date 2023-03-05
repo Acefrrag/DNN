@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Thu Dec 22 15:40:08 2022
 
@@ -6,14 +5,14 @@ Engineer: Michele Pio Fragasso
 
 
 Description:
-    --Collection of function to test my DNN VHDL architecture and make
+    --Collection of functions to test the generated DNN VHDL architecture and make
     comparisons with the testbench results
 """
 
 import numpy as np
 import os
 import datetime
-import re           #Module to extract numbers in string
+import re           #Regular Expression library
 import genSigmoid   #Module to compute the sigmoid of the weighted sum
 
 ##GLOBAL VARIABLES

@@ -1,12 +1,31 @@
-#############################################################################
-#
-#Engineer: Michele Pio Fragasso 
-#Description: This python script trains a DNN and generates the DNN vhdl architecture 
-#               which implements it.
-#
-#
-#############################################################################
+"""
+Engineer: Michele Pio Fragasso 
+Description: This python script trains a fully-connected DNN for data image recognition and
+            generates the corresponding DNN vhdl architecture which implements on
+            hardware level.
+            The training of the deep neural network is implemented using the
+            python library network2 implemented by Vipin Kizhepatt.
+            The DNN generated is used for handwritten number recognition of 28x28
+            handwritten digits (MNIST database) ranging from 0 to 9.
+            The DNN input layer is a 784-element layer, while the output layer is a
+            SOFTMAX layer which scans the last hidden layer output to extract the
+            neuron with the highest value and determines the classified digit.
+            
+            The input and output layer are subjected to size contraints:
+                -The input layer size must match 784 elements, one for every
+                pixel of the MNIST sample.
+                -The last hidden layer needs 10 neurons, one for every digit of 
+                the DNN.
+            
+Inputs: num_layers: This refers to the number of hidden layers of the DNN.
+                    It does not include the input layer (784 elements) neither
+                    the output layer (SOFTMAX, 1 neuron).
+                    
+        num_inputs: num of inputs to every layer of the DNN
+        num_outputs: the user has to insert the number of outputs for the last
+        layer.
 
+"""
 import mnist_loader
 import network2
 import json
@@ -23,11 +42,10 @@ def insert_n_check_user_input():
             check = 0
     return val
 
-#DNN PARAMETERS
-#Number of layers
+#DNN HYPERPARAMETERS
+#LAYER SIZES
 print("Insert the number of the layers of the DNN:")
 num_layers=int(insert_n_check_user_input())
-
 num_inputs = []
 num_outputs = []
 print("Insert the number of inputs to the layer no."+str(1))
@@ -38,6 +56,11 @@ for i in range(1,num_layers):
     num_outputs.append(int(num_inputs[i]))
 print("Insert the number of the output of the layer no."+str(i+1))
 num_outputs.append(int(insert_n_check_user_input()))
+#TRAINING PARAMETERS
+lmbda=5
+eta = 0.1
+epochs= 30
+batch_size=10
 
 #DNN TRAINING    
 #Loading the data and dividind the dataset between training and validation data.
@@ -51,9 +74,10 @@ validation_data = list(validation_data)
 training_data = list(training_data)
 #Computing the weights and bias for every neuron.
 #Input format: training data, number of iterations, ..., Learning Rate
-net.SGD(training_data, 30, 10, 0.1, lmbda=5.0,evaluation_data=validation_data, monitor_evaluation_accuracy=True)
+net.SGD(training_data, epochs, batch_size, eta, lmbda=lmbda, evaluation_data=validation_data, monitor_evaluation_accuracy=True)
 #Saving the weights and biases in a file.
 net.save("WeightsAndBiases.txt")
+
 
 #GENERATING DNN VHDL ARCHITECTURE
 #Generating DNN_package.vhd

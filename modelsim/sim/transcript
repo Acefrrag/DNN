@@ -1,0 +1,20 @@
+# Reading pref.tcl
+# OpenFile C:/Users/miche/git/DNN/modelsim/sim/DNN.mpf
+# Loading project DNN
+# 0 compiles, 16 failed with no errors.
+# 0 compiles, 16 failed with no errors.
+# Compile of DNN.vhd was successful.
+# Compile of DNN_old.vhd failed with 19 errors.
+# Compile of DNN_package.vhd was successful.
+# Compile of DNN_package_old.vhd was successful with warnings.
+# Compile of FSM_neuron.vhd was successful.
+# Compile of layer.vhd was successful.
+# Compile of max_finder.vhd was successful.
+# Compile of neuron.vhd was successful.
+# Compile of ReLU.vhd was successful with warnings.
+# Compile of Sigmoid.vhd was successful.
+# Compile of TB_package.vhd was successful.
+# Compile of unary_or.vhd was successful.
+# Compile of weight_memory.vhd was successful.
+# 13 compiles, 1 failed with 19 errors.
+# Load canceled

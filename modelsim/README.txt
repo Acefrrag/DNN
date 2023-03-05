@@ -7,3 +7,5 @@ The "scripts" folder contains python script to train the DNN and generate fixed-
 The "sim" folder contains modelsim simulation projects to visualize the data waveforms.
 
 The "src" folder contains the VHDL design files.
+
+The "wf" contains modelsim waveform to be loaded inside modelsim environment.

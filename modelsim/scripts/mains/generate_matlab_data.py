@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Fri Dec 23 11:01:55 2022
 
@@ -6,7 +5,7 @@ Engineer: Michele Pio Fragasso
 
 
 Description:
-    --Supposedly this program create two files training_data.txt and test_data_matlab.txt
+    --This program create two files training_data.txt and test_data_matlab.txt
     compatible with matlab scripts.
     
 """

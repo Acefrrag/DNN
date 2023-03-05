@@ -112,8 +112,8 @@ generic(
     act_fun_type: string;
 	sigmoid_inputdataWidth: natural;
 	sigmoid_inputdataIntWidth: natural;
-	lyr_prms_path: string); -- If the user choose an analytical activation function the number of sample have to be chosen
-port (
+	lyr_prms_path: string); -- If the user choose an analytical activation function the number of sample has to be chosen
+port(
     clk: in std_logic;
     data_in: in sfixed (neuron_input_IntWidth-1 downto -neuron_input_FracWidth);
     data_out_sel: in std_logic_vector(0 to natural(ceil(log2(real(num_outputs))))-1):=(others => '0');--num_outputs=30

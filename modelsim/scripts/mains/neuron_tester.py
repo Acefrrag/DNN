@@ -1,20 +1,17 @@
-# -*- coding: utf-8 -*-
 """
-Created on %(date)s
-
 Engineer: Michele Pio Fragasso
 
 Description:
 This file is used to compute a generic neuron output given the neuron weights,
-bias and inputs.
-It uses the same format as the the hardware architecture implemented in VHDL,
-that is a fixed point notation for representing the weights, input and bias. 
+bias and inputs. It uses the same format as the hardware architecture
+implemented in VHDL, that is a fixed point notation for representing the weights,
+input and bias.
 """
 
 import sys
 sys.path.insert(0,"../functions/")
 
-import DNN_tester
+import DNN_testbench #library to aid the testbench
 
 #Main Parameters
 
@@ -25,7 +22,7 @@ neuronbias_IntWidth = neuronweight_IntWidth+neuroninput_IntWidth
 ### Neuron folder path
 neuron_folder = "neuron_folder1"
 
-neuron_ws = DNN_tester.neuron_weighted_sum(neuron_folder=neuron_folder, neuronweight_IntWidth = neuronweight_IntWidth, neuronbias_IntWidth = neuronbias_IntWidth, neuroninput_IntWidth = neuroninput_IntWidth)
+neuron_ws = DNN_testbench.neuron_weighted_sum(neuron_folder=neuron_folder, neuronweight_IntWidth = neuronweight_IntWidth, neuronbias_IntWidth = neuronbias_IntWidth, neuroninput_IntWidth = neuroninput_IntWidth)
 
 
 

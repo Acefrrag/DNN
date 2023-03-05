@@ -220,7 +220,6 @@ elsif act_fun_type = "Sig" generate
 		data_in	=> sigmoid_data_in,
 		data_out => act_log_out
 	);
-	
 end generate;
 
 sum_reg: process (clk)

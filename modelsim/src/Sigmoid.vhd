@@ -60,7 +60,7 @@ end function;
 signal sigmoid_ROM: rom_type := genSigROM(Sigfilename);
 --signal data_in_slv: std_logic_vector(data_in'length-1 downto 0);
 --signal data_in
-signal data_in_integer: integer:=0;
+signal data_in_integer: integer:=0; --Signed integer(2's complement) representation of the fixed-point representation of the sigmoid input.
 signal addr: std_logic_vector(inputdataWidth-1 downto 0) := (others => '0');
 
 begin
@@ -71,10 +71,18 @@ begin
 data_in_integer <= to_integer(signed(to_slv(data_in)));
 data_out <= Sigmoid_ROM(to_integer(unsigned(addr)));
 
+--SIGMOID LUT pointer
+--It is generated from data_in_integer:
+--1) If the number representation is 0, then then address is the middle, that is 2^(inputdataWidth-1).
+--2) If the number representation is the smallest possible that is -2^(inputdataWidth-1), the address is 0, because that corresponds to the smallest abscissa value.
+--3) If the number representation is the highest possible, that is 2^(inputdataWidth-1)-1, the address is the maximum, that is 2^(inputdataWidth)-1.
+--From these two the formula is inferred. But it is necessary to convert the number into his representation.
+addr <=  std_logic_vector(to_unsigned(data_in_integer+2**(inputdataWidth-1), addr'length));
+
+
+/* 
 addr_finder: process(CLK) is
---if the number representation is 0 then the address is the middle. Because that corresponds to 0
---if the number representation is the smallest possible that is -2^(inputdataWidth-1), the address is 0, because that corresponds to the smallest abscissa value.
---From these two you infere the formula. But it is necessary to convert the number into his representation.
+addr <=  std_logic_vector(to_unsigned(data_in_integer+2**(inputdataWidth-1), addr'length));
 begin
 if rising_edge(CLK) then
 	if data_in_integer >= 0 then
@@ -84,7 +92,7 @@ if rising_edge(CLK) then
 		addr <= std_logic_vector(to_unsigned(data_in_integer+2**(inputdataWidth-1), addr'length));
 	end if;
 end if;
-end process;
+end process; */
 
 
 

@@ -173,7 +173,7 @@ neurons: for i in 0 to num_outputs-1 generate
 		act_fun_type => act_fun_type,
 		sigmoid_inputdataWidth => sigmoid_inputdataWidth,
 		sigmoid_inputdataIntWidth => sigmoid_inputdataIntWidth,
-	Sigfilename => lyr_prms_path&"sigmoid/SigContent.mif")
+		Sigfilename => lyr_prms_path&"sigmoid/SigContent.mif")
         port map(
         clk => clk,
         data_in =>data_in,

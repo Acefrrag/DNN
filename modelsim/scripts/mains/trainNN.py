@@ -1,21 +1,39 @@
 """
 Author: Vipin Kizhepatt
 
-Revision Dec 26 21:36:56 2022: Michele Pio Fragasso
+Revision Feb 05 03  21:36:56 2022: Michele Pio Fragasso
 
 
-Description:
-    --This python script trains a DNN and generates the DNN top level VHDL
-    architecture which implements it as well the necessary VHDL packages to make
-    it work.
-    --This train a neural network with an arbitrary number of layers, with as
-    many neurons per layer as we want.
-    --The number of layer of the DNN architecture does not include the input layer,
-    infact the input is external to the DNN architecture, and is fed sequentially
-    to the architecture. It does not even include the output layer which is a simple SOFTMAX
-    --The last hidden layer is always a 10 neuron layer, every neuron is the digit
-    and the output is how the DNN is confident about that digit being the digit depicted
-    in the input image.
+Description: This python script trains a fully-connected DNN for data image recognition and
+            generates the corresponding DNN vhdl architecture which implements on
+            hardware level.
+            The training of the deep neural network is implemented using the
+            python library network2 implemented by Vipin Kizhepatt.
+            The DNN generated is used for handwritten number recognition of 28x28
+            handwritten digits (MNIST database) ranging from 0 to 9.
+            The DNN input layer is a 784-element layer, while the output layer is a
+            SOFTMAX layer which scans the last hidden layer output to extract the
+            neuron with the highest value and determines the classified digit.
+            
+            The input and output layer are subjected to size contraints:
+                -The input layer size must match 784 elements, one for every
+                pixel of the MNIST sample.
+                -The last hidden layer needs 10 neurons, one for every digit of 
+                the DNN.
+            
+Inputs: num_layers: This refers to the number of hidden layers of the DNN.
+                    It does not include the input layer (784 elements) neither
+                    the output layer (SOFTMAX, 1 neuron).
+                    
+        num_inputs: num of inputs to every layer of the DNN
+        num_outputs: the user has to insert the number of outputs for the last
+        layer.
+        
+Outputs:
+        -DNN_package.vhd
+        -DNN.vhd
+        -training_report.txt
+        -WeightsandBiases.txt
 """
 
 import sys
