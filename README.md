@@ -1,6 +1,6 @@
 # Simple Reconfigurable DNN
 
-This github repository consists in a VHDL architecture of a reconfigurable fully-connected feed forward deep neural network.
+This github repository consists in a VHDL architecture of a reconfigurable fully-connected feed forward deep neural network. The architecture as well as reconfiguration capabilities are inspired to ZyNet package developed by Vipin Kizhepatt 
 
 ## Motivation
 
@@ -14,5 +14,5 @@ This github repository contains VHDL architecture developed under two different 
 This repository contains a set of python scripts to train a fully-connected MLP and reconfiguration of the aforemention
 VHDL-based DNN.
 
-The Vivado project folder is deprecated. At the moment ModelSim is more reliable,so I advice the user to make use only of
-that folder.
+## Warning
+The Vivado project folder is deprecated. ModelSim is the project to refer to.
