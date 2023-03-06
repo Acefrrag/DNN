@@ -219,7 +219,26 @@ def testbench_layer(layer_folder, neuronweight_IntWidth, neuronbias_IntWidth, ne
     return(layer_outputs_dict)
 
 def neuron_weighted_sum(neuron_folder, neuronweight_IntWidth, neuronbias_IntWidth, neuroninput_IntWidth):
-    pathfile = os.getcwd()+"\..\\\\files\\\\"+neuron_folder+"\\\\"
+    """
+    
+
+    Parameters
+    ----------
+    neuron_folder : TYPE
+        DESCRIPTION.
+    neuronweight_IntWidth : TYPE
+        DESCRIPTION.
+    neuronbias_IntWidth : TYPE
+        DESCRIPTION.
+    neuroninput_IntWidth : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    None.
+
+    """
+    pathfile = os.getcwd()+"\..\\\\files\\\\testbenching\\\\"+neuron_folder+"\\\\"
     files = os.listdir(pathfile)
     #Neuron weights generation
     weight_index = 0

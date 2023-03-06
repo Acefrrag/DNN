@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Mon Dec 26 20:11:38 2022
 
@@ -6,7 +5,14 @@ Engineer: Michele Pio Fragasso
 
 
 Description:
-    --File description
+    --File description: This script generates a VHDL compatible MNIST sample in order to be
+    tested with the VHDL architecture.
+    
+    Inputs:
+    IntSize: Integer Part of the Neuron output. It MUST be equal to the IntSize
+    resulting from the training python script. IntSize is the content of the
+    VHDL signal "DNN_neuron_input_IntWidth" inside DNN_package.vhd
+    dataset_index: Index to the MNIST test_data sample.
 """
 
 
