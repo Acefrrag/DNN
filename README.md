@@ -4,7 +4,7 @@ This github repository consists in a VHDL architecture of a reconfigurable fully
 
 ## Motivation
 
-The aim of the development of such architecture is the integration with NORM to enable the prototyping of hardware-based
+The aim of the development of such architecture is the integration with [NORM](https://github.com/simoneruffini/NORM) to enable the prototyping of hardware-based
 intermittent inference.
 
 ## Repository Content
