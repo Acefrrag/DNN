@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: Michele Pio Fragasso
 -- 
--- Create Date: 04/18/2022 09:21:01 PM
+-- Create Date: 01/05/23 16:17:59
 -- Design Name: 
 -- Module Name: DNN - Behavioral
 -- Project Name: 
@@ -17,11 +17,14 @@
 -- Additional Comments:
 -- 
 ----------------------------------------------------------------------------------
+
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;
 use ieee.fixed_pkg.all;
+
 
 library work;
 use work.DNN_package.all;
@@ -43,14 +46,13 @@ start: in std_logic;
 clk: in std_logic;
 data_out: out sfixed (neuron_input_IntWidth-1 downto -neuron_input_FracWidth);
 addr_in: out std_logic_vector(0 to natural(ceil(log2(real(layer_inputs(1)))))-1); --To scan through the valdation data set
-addr_out: out std_logic_vector(0 to natural(ceil(log2(real(layer_outputs(3)))))-1)); --To scan through the valdation data set
+addr_out: in std_logic_vector(0 to natural(ceil(log2(real(layer_outputs(3)))))-1)); --To scan through the valdation data set
 end DNN;
-
 architecture Behavioral of DNN is
-type data_vect_type is array(1 to DNN_num_layers) of sfixed(neuron_input_IntWidth-1 downto -neuron_input_FracWidth);
+type data_vect_type is array(1 to num_hidden_layers) of sfixed(neuron_input_IntWidth-1 downto -neuron_input_FracWidth);
 signal data_out_vect, data_in_vect: data_vect_type;
-signal start_vect: std_logic_vector(0 to DNN_num_layers);
-signal data_v_vect: std_logic_vector(1 to DNN_num_layers);
+signal start_vect: std_logic_vector(0 to num_hidden_layers);
+signal data_v_vect: std_logic_vector(1 to num_hidden_layers);
 signal data_in_sel_vect: std_logic_vector(0 to natural(ceil(log2(real(isum(layer_inputs)))))-1);
 signal data_out_sel_vect: std_logic_vector(0 to natural(ceil(log2(real(isum(layer_outputs)))))-1);
 signal data_in_sel1: std_logic_vector(0 to  natural(ceil(log2(real(layer_inputs(1)))))-1);
@@ -107,7 +109,7 @@ neuron_input_FracWidth => neuron_input_FracWidth,
 neuron_weight_IntWidth => neuron_weight_IntWidth,
 neuron_weight_FracWidth => neuron_weight_FracWidth,
 layer_no => 1,
-act_fun_type => "ReLU",
+act_fun_type => act_fun_type,
 sigmoid_inputdataWidth=> 5,
 sigmoid_inputdataIntWidth=> 2,
 lyr_prms_path => DNN_prms_path
@@ -122,6 +124,7 @@ data_in_sel => data_in_sel1,
 data_v => data_v_vect(1)
 );
 
+
 layer2: layer
 generic map(
 num_inputs => layer_inputs(2),
@@ -131,9 +134,9 @@ neuron_input_FracWidth => neuron_input_FracWidth,
 neuron_weight_IntWidth => neuron_weight_IntWidth,
 neuron_weight_FracWidth => neuron_weight_FracWidth,
 layer_no => 2,
-act_fun_type => "ReLU",
-sigmoid_inputdataWidth => 5,
-sigmoid_inputdataIntWidth =>  2,
+act_fun_type => act_fun_type,
+sigmoid_inputdataWidth=> 5,
+sigmoid_inputdataIntWidth=> 2,
 lyr_prms_path => DNN_prms_path
 )
 port map(
@@ -146,6 +149,7 @@ data_in_sel => data_in_sel2,
 data_v => data_v_vect(2)
 );
 
+
 layer3: layer
 generic map(
 num_inputs => layer_inputs(3),
@@ -155,9 +159,9 @@ neuron_input_FracWidth => neuron_input_FracWidth,
 neuron_weight_IntWidth => neuron_weight_IntWidth,
 neuron_weight_FracWidth => neuron_weight_FracWidth,
 layer_no => 3,
-act_fun_type => "ReLU",
-sigmoid_inputdataWidth => 5,
-sigmoid_inputdataIntWidth => 2,
+act_fun_type => act_fun_type,
+sigmoid_inputdataWidth=> 5,
+sigmoid_inputdataIntWidth=> 2,
 lyr_prms_path => DNN_prms_path
 )
 port map(
@@ -169,5 +173,6 @@ data_out => data_out_vect(3),
 data_in_sel => data_in_sel3,
 data_v => data_v_vect(3)
 );
+
 
 end Behavioral;

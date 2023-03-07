@@ -1,6 +1,3 @@
-# Reading pref.tcl
-# OpenFile C:/Users/miche/git/DNN/modelsim/sim/DNN.mpf
-# Loading project DNN
 # Compile of DNN.vhd was successful.
 # Compile of DNN_package.vhd was successful.
 # Compile of FSM_neuron.vhd was successful.
@@ -12,5 +9,132 @@
 # Compile of TB_package.vhd was successful.
 # Compile of unary_or.vhd was successful.
 # Compile of weight_memory.vhd was successful.
-# 11 compiles, 0 failed with no errors.
+# Compile of DNN_tb.vhd was successful.
+# Compile of layer_tb.vhd was successful with warnings.
+# Compile of neuron_tb.vhd failed with 56 errors.
+# 14 compiles, 1 failed with 56 errors.
+vsim -gui work.dnn_tb
+# vsim -gui work.dnn_tb 
+# Start time: 22:53:56 on Mar 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading work.dnn_package(body)
+# Loading work.dnn_tb(behavioral)
+# ** Error: (vsim-13) Recompile work.dnn because work.dnn_package has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.dnn(behavioral) after work.dnn is recompiled.
+# ** Error: (vsim-13) Recompile work.dnn(behavioral) because work.dnn_package has changed.
+# Load interrupted
+# Error loading design
+# End time: 22:53:57 on Mar 06,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 3
+# Errors: 0, Warnings: 0
+# Compile of DNN.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of DNN_package.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of FSM_neuron.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of layer.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of max_finder.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of neuron.vhd was successful.
+# Errors: 0, Warnings: 1
+# Compile of ReLU.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Sigmoid.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of TB_package.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of unary_or.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of weight_memory.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of DNN_tb.vhd was successful.
+# Errors: 0, Warnings: 1
+# Compile of layer_tb.vhd was successful.
+# Errors: 56, Warnings: 0
+# Errors: 56, Warnings: 0
+# Errors: 56, Warnings: 0
+# Compile of neuron_tb.vhd failed.
+vsim -gui work.dnn_package
+# vsim -gui work.dnn_package 
+# Start time: 22:58:10 on Mar 06,2023
+# ** Fatal: (vsim-3370) Design unit 'dnn_package' (VHDL PACKAGE) is not allowed at the top level.
+#    Time: 0 ps  Iteration: 0  Root: / File: NOFILE
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 22:58:11 on Mar 06,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim -gui work.dnn_tb
+# vsim -gui work.dnn_tb 
+# Start time: 22:58:23 on Mar 06,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading ieee.fixed_float_types
+# Loading ieee.fixed_generic_pkg(body)
+# Loading ieee.fixed_pkg
+# Loading work.dnn_package(body)
+# Loading work.dnn_tb(behavioral)
+# Loading work.dnn(behavioral)
+# Loading work.layer(behavioral)
+# Loading work.fsm_layer(behavioral)
+# Loading work.neuron(behavioral)
+# Loading work.weight_memory(behavioral)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.relu(behavioral)
+# Loading work.unary_or(unary_or)
+# ** Warning: Design size of 14078 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+do C:/Users/miche/git/DNN/modelsim/wf/DNN.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: miche  Hostname: DESKTOP-9VA2EUV  ProcessID: 4528
+#           Attempting to use alternate WLF file "./wlftz4cm3v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz4cm3v
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/CLK'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 38
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/data_in'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 39
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/data_out'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 40
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/sigmoid_ROM'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 41
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/data_in_integer'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 42
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/addr'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 43
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/inputdataWidth'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 44
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/inputdataIntWidth'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 45
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/outputdataWidth'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 46
+# ** UI-Msg: (vish-4014) No objects found matching '/dnn_tb/DNN_cmp/layer1/neurons(0)/neuron_i/act_log_generate/Sigmoid_comp/outputdataIntWidth'.
+# Executing ONERROR command at macro C:\Users\miche\git\DNN\modelsim\wf\DNN.do line 47
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dnn_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dnn_tb/DNN_cmp/layer3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dnn_tb/DNN_cmp/layer2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dnn_tb/DNN_cmp/layer1
+wave import C:/Users/miche/git/DNN/modelsim/sim/aaa.vcd
+# Unexpected Token : 0!
+# image file format "bmp" is unknown
+quit -sim
+# End time: 23:01:08 on Mar 06,2023, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 8
 # Load canceled

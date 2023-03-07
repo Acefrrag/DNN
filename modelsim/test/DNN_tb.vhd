@@ -70,7 +70,7 @@ variable dataset_content: datain_type;
 
 end function;
 
-constant test_dataset_path: string := "../tb_files/DNN/tb3/dataset/test_data.txt";
+constant test_dataset_path: string := "../tb_files/DNN/tb5/dataset/test_data.txt";
 
 signal input_reg: datain_type := gen_datain(test_dataset_path);
 

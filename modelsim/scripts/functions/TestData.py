@@ -143,7 +143,7 @@ def genTestData(dataWidth,IntSize,testDataNum,te_d):
         #No directory is created in case of error
         print("Folder already exist. None is created")
     logFile = open(folderpath+"/"+"genData.log","w")
-    logFile.write("DataSet no. "+testDataNum+"\n\n")
+    logFile.write("DataSet no. "+str(testDataNum)+"\n\n")
     logFile.write("Data Format:\n")
     logFile.write("Data Width: "+str(dataWidth)+"\n")
     logFile.write("Integer Part Width: "+str(IntSize)+"\n")

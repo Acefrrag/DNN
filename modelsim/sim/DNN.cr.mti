@@ -1,7 +1,5 @@
-C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd
+C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:29 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -14,24 +12,18 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Loading package DNN_package
 -- Compiling entity Sigmoid
 -- Compiling architecture Behavioral of Sigmoid
-End time: 18:36:30 on Mar 05,2023, Elapsed time: 0:00:01
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:28 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
 -- Compiling entity FSM_layer
 -- Compiling architecture Behavioral of FSM_layer
-End time: 18:36:28 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/neuron.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/neuron.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/neuron.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/neuron.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:29 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/neuron.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -44,12 +36,9 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Loading package DNN_package
 -- Compiling entity neuron
 -- Compiling architecture Behavioral of neuron
-End time: 18:36:29 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd {2 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:29 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -65,12 +54,9 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Compiling entity ReLU
 -- Compiling architecture Behavioral of ReLU
 ** Warning: C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd(86): (vcom-1048) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
-End time: 18:36:29 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:28 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -83,128 +69,9 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Compiling package DNN_package
 -- Compiling package body DNN_package
 -- Loading package DNN_package
-End time: 18:36:28 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd {0 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:31 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Loading package instance fixed_pkg
--- Loading package fixed_float_types
--- Loading package fixed_generic_pkg
--- Loading package body fixed_generic_pkg
--- Loading package DNN_package
--- Compiling entity neuron_tb
--- Compiling architecture Behavioral of neuron_tb
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): (vcom-1136) Unknown identifier "neuron_rom_depth".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): (vcom-1136) Unknown identifier "neuron_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): Cannot resolve expression type.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(40): Type error in range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): (vcom-1136) Unknown identifier "neuron_rom_depth".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): (vcom-1136) Unknown identifier "neuron_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): Cannot resolve expression type.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(41): Type error in range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(43): (vcom-1136) Unknown identifier "neuron_rom_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(43): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(43): Type error in range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(44): (vcom-1136) Unknown identifier "neuron_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(44): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(44): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(44): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(48): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(48): Type error resolving infix expression "+" as type std.STANDARD.NATURAL.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(57): (vcom-1136) Unknown identifier "neuron_rom_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(57): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(57): Type error in range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(61): (vcom-1489) Range of a parameter specification must be of a discrete type.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(71): (vcom-1136) Unknown identifier "dataset_path".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(72): (vcom-1136) Unknown identifier "input_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(72): (vcom-1136) Unknown identifier "input_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(72): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(72): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(73): (vcom-1136) Unknown identifier "neuron_rom_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(76): (vcom-1136) Unknown identifier "neuron_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(76): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(76): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(76): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(92): (vcom-1136) Unknown identifier "neuron_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(92): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(92): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(92): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(93): (vcom-1136) Unknown identifier "neuron_rom_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(97): (vcom-1136) Unknown identifier "neuron_int_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(97): (vcom-1136) Unknown identifier "neuron_frac_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(97): (vcom-1591) Bad expression in left bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(97): (vcom-1591) Bad expression in right bound of range expression.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(107): (vcom-1136) Unknown identifier "neuron_rom_width".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(108): (vcom-1136) Unknown identifier "neuron_rom_depth".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(109): (vcom-1136) Unknown identifier "neuron_rom_file".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(130): (vcom-1136) Unknown identifier "neuron_rom_depth".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(130): Type error resolving infix expression ">" as type std.STANDARD.BOOLEAN.
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(135): (vcom-1604) No feasible entries for subprogram "to_integer" with expected return type "<ERROR>".
-   Visible subprograms are:
-      (explicit) fixed_pkg.to_integer[UNRESOLVED_ufixed, ieee.fixed_float_types.fixed_overflow_style_type, ieee.fixed_float_types.fixed_round_style_type return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/fixed_generic_pkg-body.vhdl(3164)
-      (explicit) fixed_pkg.to_integer[UNRESOLVED_sfixed, ieee.fixed_float_types.fixed_overflow_style_type, ieee.fixed_float_types.fixed_round_style_type return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/fixed_generic_pkg-body.vhdl(3195)
-      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
-      (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(143): (vcom-1136) Unknown identifier "neuron_rom_depth".
-** Error: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-** Note: C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd(156): VHDL Compiler exiting
-End time: 18:36:31 on Mar 05,2023, Elapsed time: 0:00:00
-
-} {17.0 71.0 76.0 78.0} {}} C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd
-Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:29 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Loading package instance fixed_pkg
--- Loading package fixed_float_types
--- Loading package fixed_generic_pkg
--- Loading package body fixed_generic_pkg
--- Loading package DNN_package
--- Compiling entity max_finder
--- Compiling architecture Behavioral of max_finder
-End time: 18:36:29 on Mar 05,2023, Elapsed time: 0:00:00
-
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/layer.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/layer.vhd
-Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:28 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/layer.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package MATH_REAL
--- Loading package instance fixed_pkg
--- Loading package fixed_float_types
--- Loading package fixed_generic_pkg
--- Loading package body fixed_generic_pkg
--- Loading package DNN_package
--- Compiling entity layer
--- Compiling architecture Behavioral of layer
-End time: 18:36:29 on Mar 05,2023, Elapsed time: 0:00:01
-
-} {} {}} C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd
-Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:30 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -217,23 +84,9 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Loading package DNN_package
 -- Compiling entity DNN_tb
 -- Compiling architecture Behavioral of DNN_tb
-End time: 18:36:30 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:30 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd 
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity unary_OR
--- Compiling architecture unary_OR of unary_OR
-End time: 18:36:30 on Mar 05,2023, Elapsed time: 0:00:00
-
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd
-Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:30 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -244,14 +97,34 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Loading package fixed_generic_pkg
 -- Loading package body fixed_generic_pkg
 -- Loading package DNN_package
--- Compiling entity weight_memory
--- Compiling architecture Behavioral of weight_memory
-End time: 18:36:30 on Mar 05,2023, Elapsed time: 0:00:00
+-- Compiling entity max_finder
+-- Compiling architecture Behavioral of max_finder
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/DNN.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/DNN.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/layer.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/layer.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:28 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/DNN.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity layer
+-- Compiling architecture Behavioral of layer
+
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity unary_OR
+-- Compiling architecture unary_OR of unary_OR
+
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/DNN.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/DNN.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -264,12 +137,24 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Loading package DNN_package
 -- Compiling entity DNN
 -- Compiling architecture Behavioral of DNN
-End time: 18:36:28 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:30 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package instance fixed_pkg
+-- Loading package fixed_float_types
+-- Loading package fixed_generic_pkg
+-- Loading package body fixed_generic_pkg
+-- Loading package DNN_package
+-- Compiling entity weight_memory
+-- Compiling architecture Behavioral of weight_memory
+
+} {} {}} C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd
+Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -282,12 +167,9 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Compiling package TB_package
 -- Compiling package body TB_package
 -- Loading package TB_package
-End time: 18:36:30 on Mar 05,2023, Elapsed time: 0:00:00
 
-} {} {}} C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd {1 {vcom -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd
+} {} {}} C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd {2 {vcom -work work -2008 -explicit -stats=none C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd
 Model Technology ModelSim - Lattice FPGA Edition vcom 2021.4 Compiler 2021.10 Oct 14 2021
-Start time: 18:36:30 on Mar 05,2023
-vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -301,6 +183,5 @@ vcom -reportprogress 300 -work work -2008 -explicit C:/Users/miche/git/DNN/model
 -- Compiling entity layer_tb
 -- Compiling architecture Behavioral of layer_tb
 ** Warning: C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd(93): (vcom-1013) Initial value of "data_in" depends on value of signal "input_reg".
-End time: 18:36:31 on Mar 05,2023, Elapsed time: 0:00:01
 
 } {} {}}

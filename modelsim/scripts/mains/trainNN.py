@@ -28,6 +28,7 @@ Inputs: num_layers: This refers to the number of hidden layers of the DNN.
         num_inputs: num of inputs to every layer of the DNN
         num_outputs: the user has to insert the number of outputs for the last
         layer.
+        hyperparametes: lamba, eta, bacht_size, epochs
         
 Outputs:
         A folder with relative path "../files/weights_n_biases/training_"+<date>+"/VHDL_output" containing the following files:
@@ -52,6 +53,10 @@ Usage:
     generate_VHDL_test_data.py which contains the dataset to perform the
     testbench. Remember that data must match the DNN neuorn data format.
     
+Notes:
+    The Sigmoid size affects the VHDL-DNN capability at reproducing the accurcy
+    of the python-DNN. The error between VHDL and python sigmoid propagates
+    through the layers, and the more layers, the more error.
 """
 
 import sys
@@ -97,11 +102,11 @@ num_inputs = []
 num_outputs = []
 num_inputs.append(int(num_inputs_DNN))
 for i in range(0,num_hidden_layers-1):
-    print("Insert the number of neurons to the layer no."+str(i))
+    print("Insert the number of neurons of the hidden layer no."+str(i))
     num_inputs.append(int(misc.read_integer()))
     num_outputs.append(int(num_inputs[i+1]))
 time.sleep(1)
-print("The number of neurons of layer no."+str(i+1)+"(last layer) is always:\n10\nRead script description.\n")
+print("The number of neurons of hidden layer no."+str(i+1)+"(last layer) is always:\n10\nRead script description.\n")
 time.sleep(1)
 num_outputs.append(int(num_outputs_DNN))
 print("Which kind of activation function do you want to use? \n 0: ReLU \n 1: Sigmoid \n \n")
@@ -155,9 +160,13 @@ neuron_weight_Width = 32
 neuron_input_FracWidth = neuron_input_Width-neuron_input_IntWidth
 neuron_weight_FracWidth = neuron_weight_Width-neuron_weight_IntWidth
 #Sigmoid sizes
-sigmoid_inputSize = 5
+sigmoid_inputSize = 10
 sigmoid_inputIntSize = 2
-Sigmoid.genSigContent(dest_path="../files/sigmoid/",outputdataWidth=neuron_input_Width,outputdataIntWidth=neuron_input_IntWidth,inputSize=sigmoid_inputSize,inputIntWidth=sigmoid_inputIntSize)
+try:
+    os.mkdir(dir_path+"/sigmoid")
+except:
+    print("Folder already exists")
+Sigmoid.genSigContent(dest_path=dir_path+"/sigmoid/",outputdataWidth=neuron_input_Width,outputdataIntWidth=neuron_input_IntWidth,inputSize=sigmoid_inputSize,inputIntWidth=sigmoid_inputIntSize)
 
 
 misc.genWeightsAndBias(dir_path=dir_path, dataWidth=neuron_input_Width, weightIntWidth=neuron_weight_IntWidth, inputIntWidth=neuron_input_IntWidth)
@@ -166,7 +175,11 @@ try:
     os.mkdir(dir_path+"VHDL_output")
 except:
     print("Folder already exists.")
+    
+#try
 
+# except:
+#     print("Folder already exists")
 #########################GENERATING DNN VHDL ARCHITECTURE###########################
 #VHDL packages
 #DNN_package.vhd
