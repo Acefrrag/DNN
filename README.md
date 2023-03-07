@@ -1,6 +1,6 @@
 # Simple Reconfigurable DNN
 
-This github repository consists in a VHDL architecture of a reconfigurable fully-connected feed forward deep neural network. The architecture as well as reconfiguration capabilities are inspired to ZyNet package developed by Vipin Kizhepatt found [here](https://github.com/dsdnu/zynet) .
+This github repository consists in a VHDL serial pipelined configuration architecture of a reconfigurable fully-connected feed forward deep neural network. This architecture as well as reconfiguration capabilities are inspired to ZyNet package developed by Vipin Kizhepatt found [here](https://github.com/dsdnu/zynet) .
 
 ## Motivation
 
