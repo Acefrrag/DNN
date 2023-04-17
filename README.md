@@ -13,8 +13,9 @@ This github repository consists in a VHDL serial implementation architecture of 
 The DNN consists in layers connected in cascade where every layer triggers the next one when output is computed. The layer fetches sequentially the inputs and its outputs are fed one by one to the next layer.
 
 ### Layer 
+
 <p align="center">
-  <img width=450 height= 300 src="https://user-images.githubusercontent.com/59066474/232449207-fdb4e436-2e7e-4b43-972a-8376364a2c3f.png")>
+  <img width=450 height= 300 src="https://user-images.githubusercontent.com/59066474/232455580-3a3446b1-cfdd-4f84-8f30-046f099fb84e.png")>
 </p>
 
 Internally the layer contains a FSM that implements the control logic of the layer. A layer_CNTR is used to fetch the neurons' weights and previous layer's outputs. The output multiplexer driven by the next layer is used to serially fetch the layer's output.
