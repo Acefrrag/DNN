@@ -5,10 +5,8 @@ This github repository consists in a VHDL serial implementation architecture of 
 
 
 
-
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/59066474/232441373-acfe7f36-f239-4646-b21d-221b429882b4.png")>
+  <img src="https://user-images.githubusercontent.com/59066474/232442895-ab4b8096-580c-46d0-b9fb-fe4f73eac094.png")>
 </p>
 
 The DNN consists in layers connected in cascade where every layer triggers the next one when output is computed. 
