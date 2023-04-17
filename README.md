@@ -1,13 +1,17 @@
-# Serial Configuration Reconfigurable DNN
+# Reconfigurable Serial DNN
 
-This github repository consists in a VHDL serial implemenation architecture of a reconfigurable fully-connected feed forward deep neural network. This architecture as well as reconfiguration capabilities are inspired to [ZyNet package](https://github.com/dsdnu/zynet) developed by Vipin Kizhepatt found here .
+This github repository consists in a VHDL serial implementation architecture of a reconfigurable fully-connected feed forward deep neural network. This architecture as well as reconfiguration capabilities are inspired to [ZyNet package](https://github.com/dsdnu/zynet) developed by Vipin Kizhepatt.
 
-  
 
-</p>
+
+
+
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/59066474/232430837-52b3a283-e854-4e98-8dbf-fcf95338d192.png")>
+  <img src="https://user-images.githubusercontent.com/59066474/232441373-acfe7f36-f239-4646-b21d-221b429882b4.png")>
 </p>
+
+The DNN consists in layers connected in cascade where every layer triggers the next one when output is computed. 
 
 ## Motivation
 
