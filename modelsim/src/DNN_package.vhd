@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: Michele Pio Fragasso
 -- 
--- Create Date: 03/07/23 13:22:45
+-- Create Date: 03/11/23 22:19:05
 -- Design Name: 
 -- Module Name: DNN_tb - Behavioral
 -- Project Name: 
@@ -29,22 +29,22 @@ constant DNN_num_inputs: natural := 784;
 constant DNN_sigmoid_inputdata_Width: natural  := 10;
 constant DNN_sigmoid_inputdata_IntWidth: natural := 2;
 constant DNN_neuron_input_Width: natural := 32;
-constant DNN_neuron_input_IntWidth: natural  := 4;
+constant DNN_neuron_input_IntWidth: natural  := 10;
 constant DNN_neuron_input_FracWidth: natural := DNN_neuron_input_Width-DNN_neuron_input_IntWidth;constant DNN_neuron_weight_Width : natural := 32;
-constant DNN_neuron_weight_IntWidth: natural := 1;
+constant DNN_neuron_weight_IntWidth: natural := 3;
 constant DNN_neuron_weight_FracWidth: natural := DNN_neuron_weight_Width-DNN_neuron_weight_IntWidth;
-constant DNN_prms_path: string := "../tb_files/DNN/tb5/";
-constant act_fun_type: string  := "Sig";
+constant DNN_prms_path: string := "../tb_files/DNN/tb6/";
+constant act_fun_type: string  := "ReLU";
 -- Layers variables
 -- Input Layer
-constant num_hidden_layers: natural := 10;
+constant num_hidden_layers: natural := 3;
 --DNN parameters
 type layer_neurons_type is array(1 to num_hidden_layers) of natural;
 
-constant log2_layer_inputs: layer_neurons_type := (natural(ceil(log2(real(784)))),natural(ceil(log2(real(50)))),natural(ceil(log2(real(40)))),natural(ceil(log2(real(40)))),natural(ceil(log2(real(30)))),natural(ceil(log2(real(25)))),natural(ceil(log2(real(25)))),natural(ceil(log2(real(20)))),natural(ceil(log2(real(20)))),natural(ceil(log2(real(15)))));
-constant log2_layer_outputs: layer_neurons_type := (natural(ceil(log2(real(50)))),natural(ceil(log2(real(40)))),natural(ceil(log2(real(40)))),natural(ceil(log2(real(30)))),natural(ceil(log2(real(25)))),natural(ceil(log2(real(25)))),natural(ceil(log2(real(20)))),natural(ceil(log2(real(20)))),natural(ceil(log2(real(15)))),natural(ceil(log2(real(10)))));
-constant layer_inputs: layer_neurons_type := (784,50,40,40,30,25,25,20,20,15);
-constant layer_outputs: layer_neurons_type := (50,40,40,30,25,25,20,20,15,10);
+constant log2_layer_inputs: layer_neurons_type := (natural(ceil(log2(real(784)))),natural(ceil(log2(real(30)))),natural(ceil(log2(real(20)))));
+constant log2_layer_outputs: layer_neurons_type := (natural(ceil(log2(real(30)))),natural(ceil(log2(real(20)))),natural(ceil(log2(real(10)))));
+constant layer_inputs: layer_neurons_type := (784,30,20);
+constant layer_outputs: layer_neurons_type := (30,20,10);
 
 
 --Functions Declaration

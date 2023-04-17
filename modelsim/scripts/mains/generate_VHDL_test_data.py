@@ -37,7 +37,7 @@ import TestData as genData
 sys.path.insert(0, "../functions")
 
 dataWidth = 32
-IntSize = 4
+IntSize = 10
 dataset_index = 1160
 
 tr_d, va_d, te_data = genData.load_data()

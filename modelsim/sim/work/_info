@@ -10,8 +10,8 @@ z2
 cModel Technology
 dC:/Users/miche/Github_Repositories/HM0360_CrossLink-NX_I2C/HM0360_image_capture/HM0360_image_capture/HM0360_image_capture
 Ednn
-Z0 w1678191829
-Z1 DPx4 work 11 dnn_package 0 22 KYVBm=SaLdE3<cEa2cH7f1
+Z0 w1678569580
+Z1 DPx4 work 11 dnn_package 0 22 lYAebIPRl7MGD?mTN`:dk0
 Z2 DPx4 ieee 17 fixed_float_types 0 22 j<WD5SZ6`I4KC;8P]h@_10
 Z3 DPx4 ieee 17 fixed_generic_pkg 0 22 Rl?j<5:i_L<aE9]<7A]V?0
 Z4 DPx4 ieee 9 fixed_pkg 0 22 c`b>2Shb`ic5KAcV=K;Co1
@@ -19,7 +19,7 @@ Z5 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 265
+!i122 372
 Z9 dC:/Users/miche/git/DNN/modelsim/sim
 Z10 8C:/Users/miche/git/DNN/modelsim/src/DNN.vhd
 Z11 FC:/Users/miche/git/DNN/modelsim/src/DNN.vhd
@@ -29,9 +29,9 @@ V7Hdg4MdQKQJ:N^LaVYZnT2
 !s100 nGK8Q;WUe]K4NLlDATbEU1
 Z13 OT;C;2021.4;73
 33
-Z14 !s110 1678192561
+Z14 !s110 1678574412
 !i10b 1
-Z15 !s108 1678192561.000000
+Z15 !s108 1678574412.000000
 Z16 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/DNN.vhd|
 Z17 !s107 C:/Users/miche/git/DNN/modelsim/src/DNN.vhd|
 !i113 1
@@ -47,11 +47,11 @@ R6
 R7
 R8
 DEx4 work 3 dnn 0 22 7Hdg4MdQKQJ:N^LaVYZnT2
-!i122 265
-l101
-L51 338
-VOJ3zS=zSQ2UGIf:iH>AZS3
-!s100 kAP7SQGlA>:><HIWCE@bS2
+!i122 372
+l87
+L51 128
+VUD3TaJ?Ic@I8zP1:f_h>D2
+!s100 g7@C8bW8dcZj?D?QHOeEO3
 R13
 33
 R14
@@ -70,23 +70,23 @@ R4
 R5
 R7
 R8
-!i122 266
-Z21 w1678192551
+!i122 373
+Z21 w1678570893
 R9
 Z22 8C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd
 Z23 FC:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd
 l0
 L26 1
-VKYVBm=SaLdE3<cEa2cH7f1
-!s100 7j1=hTFi5eGlSz@7I6=GT3
+VlYAebIPRl7MGD?mTN`:dk0
+!s100 L]^Pl1;1K6M3?7`a5oo0j2
 R13
 33
 b1
-Z24 !s110 1678192562
+R14
 !i10b 1
 R15
-Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd|
-Z26 !s107 C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd|
+Z24 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd|
+Z25 !s107 C:/Users/miche/git/DNN/modelsim/src/DNN_package.vhd|
 !i113 1
 R18
 R19
@@ -99,23 +99,23 @@ R4
 R5
 R7
 R8
-!i122 266
+!i122 373
 l0
 L60 1
 VOPi9LIGK@GV2I_R3bDgZR1
 !s100 gd5@>=n:SUiU945ZXFf^i2
 R13
 33
-R24
+R14
 !i10b 1
 R15
+R24
 R25
-R26
 !i113 1
 R18
 R19
 Ednn_tb
-Z27 w1678188623
+Z26 w1678570905
 R1
 R2
 R3
@@ -124,21 +124,21 @@ R5
 R6
 R7
 R8
-!i122 276
+!i122 383
 R9
-Z28 8C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd
-Z29 FC:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd
+Z27 8C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd
+Z28 FC:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd
 l0
-Z30 L33 1
+Z29 L33 1
 VYeiTnOWiYNYV<oi4`RIKE0
 !s100 ?afM<TB:0h_GS7elN[:;S3
 R13
 33
-Z31 !s110 1678192564
+Z30 !s110 1678574415
 !i10b 1
-Z32 !s108 1678192563.000000
-Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd|
-Z34 !s107 C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd|
+Z31 !s108 1678574415.000000
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd|
+Z33 !s107 C:/Users/miche/git/DNN/modelsim/test/DNN_tb.vhd|
 !i113 1
 R18
 R19
@@ -152,41 +152,41 @@ R6
 R7
 R8
 DEx4 work 6 dnn_tb 0 22 YeiTnOWiYNYV<oi4`RIKE0
-!i122 276
+!i122 383
 l106
 L37 109
-V=eGG[lUac?D1FWNA_:9SB3
-!s100 8mWTlYBV7m`U545PY5QM[1
+V030fd;5aV0clha6`o^VN<2
+!s100 zT0Ue_BcZT7L@Hdb;XF372
 R13
 33
-R31
+R30
 !i10b 1
+R31
 R32
 R33
-R34
 !i113 1
 R18
 R19
 Efsm_layer
-Z35 w1670928440
+Z34 w1678202868
 R6
 R7
 R8
-!i122 267
+!i122 374
 R9
-Z36 8C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd
-Z37 FC:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd
+Z35 8C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd
+Z36 FC:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd
 l0
 L27 1
 V6BbzP?=a;N<lN0BJzEI?Y1
 !s100 7[55@H9iZz[@55dC`[0=T2
 R13
 33
-R24
+Z37 !s110 1678574413
 !i10b 1
-Z38 !s108 1678192562.000000
-Z39 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd|
-Z40 !s107 C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd|
+R15
+Z38 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd|
+Z39 !s107 C:/Users/miche/git/DNN/modelsim/src/FSM_neuron.vhd|
 !i113 1
 R18
 R19
@@ -195,23 +195,23 @@ R6
 R7
 R8
 DEx4 work 9 fsm_layer 0 22 6BbzP?=a;N<lN0BJzEI?Y1
-!i122 267
+!i122 374
 l47
 L41 92
 VKelkV2jYnSJ5HG3Ya[Aa_3
 !s100 Fb_;Z6I<fM>C2BX^@K[1J3
 R13
 33
-R24
+R37
 !i10b 1
+R15
 R38
 R39
-R40
 !i113 1
 R18
 R19
 Elayer
-Z41 w1673425303
+R34
 R1
 R2
 R3
@@ -220,21 +220,21 @@ R5
 R6
 R7
 R8
-!i122 268
+!i122 375
 R9
-Z42 8C:/Users/miche/git/DNN/modelsim/src/layer.vhd
-Z43 FC:/Users/miche/git/DNN/modelsim/src/layer.vhd
+Z40 8C:/Users/miche/git/DNN/modelsim/src/layer.vhd
+Z41 FC:/Users/miche/git/DNN/modelsim/src/layer.vhd
 l0
 L31 1
 VTo0icWC<Q9e:R^A5XOo=C2
 !s100 BSKQ2PVARkQIbzKI6IhSW0
 R13
 33
-R24
+R37
 !i10b 1
-R38
-Z44 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/layer.vhd|
-Z45 !s107 C:/Users/miche/git/DNN/modelsim/src/layer.vhd|
+Z42 !s108 1678574413.000000
+Z43 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/layer.vhd|
+Z44 !s107 C:/Users/miche/git/DNN/modelsim/src/layer.vhd|
 !i113 1
 R18
 R19
@@ -248,23 +248,23 @@ R6
 R7
 R8
 DEx4 work 5 layer 0 22 To0icWC<Q9e:R^A5XOo=C2
-!i122 268
+!i122 375
 l88
 L55 165
 VoG[TlC[;43DPT12V0kn^<1
 !s100 9jRFSEm0H<GVohbYz=V2g3
 R13
 33
-R24
+R37
 !i10b 1
-R38
+R42
+R43
 R44
-R45
 !i113 1
 R18
 R19
 Elayer_tb
-Z46 w1673374894
+Z45 w1678202869
 R1
 R2
 R3
@@ -273,21 +273,21 @@ R6
 R5
 R7
 R8
-!i122 277
+!i122 384
 R9
-Z47 8C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd
-Z48 FC:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd
+Z46 8C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd
+Z47 FC:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd
 l0
-Z49 L36 1
+Z48 L36 1
 Vb62XA@D4A2?1OUmb8XC8l3
 !s100 IaV:W7mgjHYI6>Nn485JW0
 R13
 33
-R31
+Z49 !s110 1678574416
 !i10b 1
-Z50 !s108 1678192564.000000
-Z51 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd|
-Z52 !s107 C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd|
+R31
+Z50 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd|
+Z51 !s107 C:/Users/miche/git/DNN/modelsim/test/layer_tb.vhd|
 !i113 1
 R18
 R19
@@ -300,24 +300,24 @@ R6
 R5
 R7
 R8
-Z53 DEx4 work 8 layer_tb 0 22 b62XA@D4A2?1OUmb8XC8l3
-!i122 277
+Z52 DEx4 work 8 layer_tb 0 22 b62XA@D4A2?1OUmb8XC8l3
+!i122 384
 l125
-Z54 L39 154
-Z55 VU?YGN?^h;Q7I>[Pn5k_=:3
-Z56 !s100 F:QRc^8hV9:Q2CLW<P0=F0
+Z53 L39 154
+Z54 VU?YGN?^h;Q7I>[Pn5k_=:3
+Z55 !s100 F:QRc^8hV9:Q2CLW<P0=F0
 R13
 33
-R31
+R49
 !i10b 1
+R31
 R50
 R51
-R52
 !i113 1
 R18
 R19
 Emax_finder
-Z57 w1672692131
+R34
 R1
 R2
 R3
@@ -326,21 +326,21 @@ R5
 R6
 R7
 R8
-!i122 269
+!i122 376
 R9
-Z58 8C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd
-Z59 FC:/Users/miche/git/DNN/modelsim/src/max_finder.vhd
+Z56 8C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd
+Z57 FC:/Users/miche/git/DNN/modelsim/src/max_finder.vhd
 l0
 R12
 Vni]2c9?HQK_gm[7oh6k5n0
 !s100 m[d18Y7z^YhW6:@2h_7Rm3
 R13
 33
-R24
+R37
 !i10b 1
-R38
-Z60 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd|
-Z61 !s107 C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd|
+R42
+Z58 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd|
+Z59 !s107 C:/Users/miche/git/DNN/modelsim/src/max_finder.vhd|
 !i113 1
 R18
 R19
@@ -354,23 +354,23 @@ R6
 R7
 R8
 DEx4 work 10 max_finder 0 22 ni]2c9?HQK_gm[7oh6k5n0
-!i122 269
+!i122 376
 l60
 L49 54
 VHk]=Rjz>N<o5L=IDD]]813
 !s100 5OZnEnkMljLL37KR7ID;83
 R13
 33
-R24
+R37
 !i10b 1
-R38
-R60
-R61
+R42
+R58
+R59
 !i113 1
 R18
 R19
 Eneuron
-Z62 w1673455514
+R34
 R1
 R2
 R3
@@ -379,21 +379,21 @@ R5
 R6
 R8
 R7
-!i122 270
+!i122 377
 R9
-Z63 8C:/Users/miche/git/DNN/modelsim/src/neuron.vhd
-Z64 FC:/Users/miche/git/DNN/modelsim/src/neuron.vhd
+Z60 8C:/Users/miche/git/DNN/modelsim/src/neuron.vhd
+Z61 FC:/Users/miche/git/DNN/modelsim/src/neuron.vhd
 l0
-R49
+R48
 V4S1aloEiOi>iZU^gfP`>f3
 !s100 ef3YZDcl`2>k:=fef9c;a2
 R13
 33
-R24
+Z62 !s110 1678574414
 !i10b 1
-R38
-Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/neuron.vhd|
-Z66 !s107 C:/Users/miche/git/DNN/modelsim/src/neuron.vhd|
+R42
+Z63 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/neuron.vhd|
+Z64 !s107 C:/Users/miche/git/DNN/modelsim/src/neuron.vhd|
 !i113 1
 R18
 R19
@@ -407,18 +407,18 @@ R6
 R8
 R7
 DEx4 work 6 neuron 0 22 4S1aloEiOi>iZU^gfP`>f3
-!i122 270
+!i122 377
 l130
 L63 205
 Vcga1c^EgeDMYN1a^FXVk@0
 !s100 PZWPN88MQ`^7Cf;MYdi>_1
 R13
 33
-R24
+R62
 !i10b 1
-R38
-R65
-R66
+R42
+R63
+R64
 !i113 1
 R18
 R19
@@ -437,7 +437,7 @@ R9
 8C:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd
 FC:/Users/miche/git/DNN/modelsim/test/neuron_tb.vhd
 l0
-Z67 L34 1
+Z65 L34 1
 VmOHkSZo[4BN5E2AV@j2[b2
 !s100 9KTRgYL`Tc6Ro:k_8?FI92
 R13
@@ -451,32 +451,32 @@ R13
 R18
 R19
 Erelu
-Z68 w1672417873
+R34
 R5
 R1
 R2
 R3
 R4
-Z69 DPx8 synopsys 10 attributes 0 22 iThS5<O8gHDP?YiMiccE>3
-Z70 DPx4 ieee 14 std_logic_misc 0 22 j4Ca:YPSgnCRYmKlN0[Uj0
+Z66 DPx8 synopsys 10 attributes 0 22 iThS5<O8gHDP?YiMiccE>3
+Z67 DPx4 ieee 14 std_logic_misc 0 22 j4Ca:YPSgnCRYmKlN0[Uj0
 R6
 R7
 R8
-!i122 271
+!i122 378
 R9
-Z71 8C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd
-Z72 FC:/Users/miche/git/DNN/modelsim/src/ReLU.vhd
+Z68 8C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd
+Z69 FC:/Users/miche/git/DNN/modelsim/src/ReLU.vhd
 l0
-R67
+R65
 V;mU1AgflL^kSbE8S@Jl193
 !s100 >4FI[Ffi]?M4RVNCRC0480
 R13
 33
-Z73 !s110 1678192563
+R62
 !i10b 1
-R38
-Z74 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd|
-Z75 !s107 C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd|
+Z70 !s108 1678574414.000000
+Z71 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd|
+Z72 !s107 C:/Users/miche/git/DNN/modelsim/src/ReLU.vhd|
 !i113 1
 R18
 R19
@@ -486,29 +486,29 @@ R1
 R2
 R3
 R4
-R69
-R70
+R66
+R67
 R6
 R7
 R8
 DEx4 work 4 relu 0 22 ;mU1AgflL^kSbE8S@Jl193
-!i122 271
+!i122 378
 l63
 L49 46
 V1lM>TC^Zo8JfD>G0T7`8Y2
 !s100 U6oXR4[87z9:41G@ZCGm]1
 R13
 33
-R73
+R62
 !i10b 1
-R38
-R74
-R75
+R70
+R71
+R72
 !i113 1
 R18
 R19
 Esigmoid
-Z76 w1673173661
+R34
 R1
 R5
 R2
@@ -517,21 +517,21 @@ R3
 R4
 R7
 R8
-!i122 272
+!i122 379
 R9
-Z77 8C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd
-Z78 FC:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd
+Z73 8C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd
+Z74 FC:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd
 l0
 L13 1
 VW3OHd8m@`En:oT8A]h3YD2
 !s100 nTR22d942Jk>^B1He7l@N1
 R13
 33
-R73
+R62
 !i10b 1
-R32
-Z79 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd|
-Z80 !s107 C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd|
+R70
+Z75 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd|
+Z76 !s107 C:/Users/miche/git/DNN/modelsim/src/Sigmoid.vhd|
 !i113 1
 R18
 R19
@@ -545,18 +545,18 @@ R4
 R7
 R8
 DEx4 work 7 sigmoid 0 22 W3OHd8m@`En:oT8A]h3YD2
-!i122 272
+!i122 379
 l66
 L29 72
 VX^eG3?YB9UJk[ilMKhSHA2
 !s100 X=6M4P3`fOlj=75a[XVki2
 R13
 33
-R73
+R62
 !i10b 1
-R32
-R79
-R80
+R70
+R75
+R76
 !i113 1
 R18
 R19
@@ -568,22 +568,22 @@ R20
 R4
 R7
 R8
-!i122 273
-Z81 w1672434765
+!i122 380
+R34
 R9
-Z82 8C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd
-Z83 FC:/Users/miche/git/DNN/modelsim/src/TB_package.vhd
+Z77 8C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd
+Z78 FC:/Users/miche/git/DNN/modelsim/src/TB_package.vhd
 l0
 L6 1
 V0k5I7lozUo@X>[YfEFoI:2
 !s100 1:jHlFiY2KfJaW@[J=ULW1
 R13
 33
-R73
+R62
 !i10b 1
-R32
-Z84 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd|
-Z85 !s107 C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd|
+R70
+Z79 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd|
+Z80 !s107 C:/Users/miche/git/DNN/modelsim/src/TB_package.vhd|
 !i113 1
 R18
 R19
@@ -596,40 +596,40 @@ R20
 R4
 R7
 R8
-!i122 273
+!i122 380
 l0
 L22 1
 V6KF?>goQb@4;OiLkHn97R0
 !s100 eWgMdJmJID:@GEEn2[Kf80
 R13
 33
-R73
+R62
 !i10b 1
-R32
-R84
-R85
+R70
+R79
+R80
 !i113 1
 R18
 R19
 Eunary_or
-R35
+R34
 R7
 R8
-!i122 274
+!i122 381
 R9
-Z86 8C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd
-Z87 FC:/Users/miche/git/DNN/modelsim/src/unary_or.vhd
+Z81 8C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd
+Z82 FC:/Users/miche/git/DNN/modelsim/src/unary_or.vhd
 l0
-R30
+R29
 Va@I2_OUB`o[hHeYB55=3:3
 !s100 Fn;24jk2NEVNELYi:We4[0
 R13
 33
-R73
+R30
 !i10b 1
-R32
-Z88 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd|
-Z89 !s107 C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd|
+R31
+Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd|
+Z84 !s107 C:/Users/miche/git/DNN/modelsim/src/unary_or.vhd|
 !i113 1
 R18
 R19
@@ -637,23 +637,23 @@ Aunary_or
 R7
 R8
 DEx4 work 8 unary_or 0 22 a@I2_OUB`o[hHeYB55=3:3
-!i122 274
+!i122 381
 l42
 L40 9
 Vcho<99^HZ_Tld:<B3BcPP2
 !s100 C9Ga_IPn5YL?l<AT2K[G62
 R13
 33
-R73
+R30
 !i10b 1
-R32
-R88
-R89
+R31
+R83
+R84
 !i113 1
 R18
 R19
 Eweight_memory
-Z90 w1672687184
+R34
 R1
 R2
 R3
@@ -662,21 +662,21 @@ R5
 R6
 R7
 R8
-!i122 275
+!i122 382
 R9
-Z91 8C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd
-Z92 FC:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd
+Z85 8C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd
+Z86 FC:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd
 l0
 L39 1
 VeGQXEY=FkB:f[9e03_NJ72
 !s100 B6IZeCME?N=ZElX`CWUGQ0
 R13
 33
-R73
+R30
 !i10b 1
-R32
-Z93 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd|
-Z94 !s107 C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd|
+R31
+Z87 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd|
+Z88 !s107 C:/Users/miche/git/DNN/modelsim/src/weight_memory.vhd|
 !i113 1
 R18
 R19
@@ -690,18 +690,18 @@ R6
 R7
 R8
 DEx4 work 13 weight_memory 0 22 eGQXEY=FkB:f[9e03_NJ72
-!i122 275
+!i122 382
 l89
 L52 50
 VCj2OIX_`^``>58LmGVO^E1
 !s100 Yi>F3<n=7GbkGWLm5ekhz3
 R13
 33
-R73
+R30
 !i10b 1
-R32
-R93
-R94
+R31
+R87
+R88
 !i113 1
 R18
 R19

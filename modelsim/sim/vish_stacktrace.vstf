@@ -220,3 +220,19 @@ Exception c0000005 has occurred at address 0056ac41. Traceback:
 StackWalk failed 0
 # End of Stack Trace
 
+# Current time Sat Mar 11 22:31:32 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2021.4"
+# Version = "2021.10"
+# Date = "Oct 14 2021"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 58280eee. Traceback:
+# 0    0x58280eee: 'TkSetFocusWin + 0x29e'
+# 1    0x58234bf0: 'Tk_SetGrid + 0x2190'
+# 2    0x58238872: 'Tk_SetGrid + 0x5e12'
+# 3    0x565e39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
