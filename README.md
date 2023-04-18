@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Reconfigurable serial feed forward DNN 
 
 This github repository consists in a VHDL serial implementation architecture of a reconfigurable fully-connected feed forward deep neural network. This architecture as well as reconfiguration capabilities are inspired to [ZyNet package](https://github.com/dsdnu/zynet) developed by Vipin Kizhepatt.
@@ -18,7 +22,7 @@ The DNN consists in layers connected in cascade where every layer triggers the n
   <img width=450 height= 300 src="https://user-images.githubusercontent.com/59066474/232455580-3a3446b1-cfdd-4f84-8f30-046f099fb84e.png")>
 </p>
 
-Internally the layer contains a FSM that implements the control logic of the layer. A layer_CNTR is used to fetch the neurons' weights and previous layer's outputs, to compute the neurons' output $y_i = \Phi(x_1*w_1 + ... + x_N*w_N + b), where N is the number of inputs. The output multiplexer is driven by next layer `layer_CNTR` and is used to serially fetch the layer's output (neurons' output).
+Internally the layer contains a FSM that implements the control logic of the layer. A layer_CNTR is used to fetch the neurons' weights and previous layer's outputs, to compute the neurons' output $ y_i = \Phi(x_1*w_1 + ... + x_N*w_N + b) $, where N is the number of inputs. The output multiplexer is driven by next layer `layer_CNTR` and is used to serially fetch the layer's output (neurons' output).
 
 ### Neuron
 
