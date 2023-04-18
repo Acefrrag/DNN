@@ -26,7 +26,7 @@ Internally the layer contains a FSM that implements the control logic of the lay
   <img width=450 height= 300 src="https://user-images.githubusercontent.com/59066474/232451931-7209292f-e392-493b-9907-42add37aeb18.png")>
 </p>
 
-The neuron's cumulative sum is progressively computed at every clock cycle. At every clock cycle the term $x_i*w_i$ is computed. The partial result is stored inside `SUM_REG`. When `BIAS` is added to the cumulative sum register, the activation function is applied by sending `SUM_REG` content to `ACT_LOG` entity. At the last step, the `ACT_LOG` output is loaded into the `OUT_REG`. 
+The neuron's cumulative sum is progressively computed at every clock cycle. At every clock cycle the weighted product $x_i*w_i$ is computed. The partial result is stored inside `SUM_REG`. When `BIAS` is added to the cumulative sum register, the activation function is applied by sending `SUM_REG` content to `ACT_LOG` entity. At the last step, the `ACT_LOG` output is loaded into the `OUT_REG`. 
 
 ## Reconfiguration
 
